@@ -1,0 +1,616 @@
+2021-07-17 12:53:49,066 Experiment dir : saves/OPTUNA-DQN-HARD-20210717-125349
+2021-07-17 12:53:49,066 Args: Namespace(gpu='0', update='hard', save='OPTUNA-DQN-HARD', max_episodes=200, with_buffer=True, with_target=True, trials=200)
+2021-07-17 12:53:49,071 A new study created in memory with name: DQN
+2021-07-17 12:53:55,601 ------------------------------------------------------------------------------
+2021-07-17 12:53:55,601 Final task score = 40.0
+2021-07-17 12:53:55,609 Trial 0 finished with value: 40.0 and parameters: {'hidden_dim': 161, 'epsilon_end': 0.03578706172900334, 'epsilon_decay': 0.4863597136196487, 'grad_clip': 0.23571981007547121, 'target_update_period': 40, 'batch_size': 315}. Best is trial 0 with value: 40.0.
+2021-07-17 12:54:07,306 ------------------------------------------------------------------------------
+2021-07-17 12:54:07,306 Final task score = 98.0
+2021-07-17 12:54:07,320 Trial 1 finished with value: 98.0 and parameters: {'hidden_dim': 34, 'epsilon_end': 0.002725580396002672, 'epsilon_decay': 0.9798980441740259, 'grad_clip': 0.1189624926912256, 'target_update_period': 28, 'batch_size': 400}. Best is trial 1 with value: 98.0.
+2021-07-17 12:54:12,683 ------------------------------------------------------------------------------
+2021-07-17 12:54:12,683 Final task score = 10.0
+2021-07-17 12:54:12,688 Trial 2 finished with value: 10.0 and parameters: {'hidden_dim': 138, 'epsilon_end': 0.02696931817262611, 'epsilon_decay': 0.34540449922542216, 'grad_clip': 0.20323435625349007, 'target_update_period': 47, 'batch_size': 345}. Best is trial 1 with value: 98.0.
+2021-07-17 12:54:24,206 ------------------------------------------------------------------------------
+2021-07-17 12:54:24,206 Final task score = 100.0
+2021-07-17 12:54:24,220 Trial 3 finished with value: 100.0 and parameters: {'hidden_dim': 88, 'epsilon_end': 0.01593563808071058, 'epsilon_decay': 0.36522307188361425, 'grad_clip': 0.167053548485185, 'target_update_period': 8, 'batch_size': 319}. Best is trial 3 with value: 100.0.
+2021-07-17 12:54:28,042 ------------------------------------------------------------------------------
+2021-07-17 12:54:28,042 Final task score = 17.0
+2021-07-17 12:54:28,047 Trial 4 finished with value: 17.0 and parameters: {'hidden_dim': 48, 'epsilon_end': 0.0010735490789156956, 'epsilon_decay': 0.6620670734853265, 'grad_clip': 0.1277850283207641, 'target_update_period': 26, 'batch_size': 491}. Best is trial 3 with value: 100.0.
+2021-07-17 12:54:36,518 ------------------------------------------------------------------------------
+2021-07-17 12:54:36,518 Final task score = 38.0
+2021-07-17 12:54:36,526 Trial 5 finished with value: 38.0 and parameters: {'hidden_dim': 123, 'epsilon_end': 0.031010904185276616, 'epsilon_decay': 0.588434644763533, 'grad_clip': 0.11758823320155691, 'target_update_period': 48, 'batch_size': 487}. Best is trial 3 with value: 100.0.
+2021-07-17 12:54:47,857 ------------------------------------------------------------------------------
+2021-07-17 12:54:47,858 Final task score = 111.0
+2021-07-17 12:54:47,873 Trial 6 finished with value: 111.0 and parameters: {'hidden_dim': 42, 'epsilon_end': 0.0325770766210982, 'epsilon_decay': 0.3092718795340951, 'grad_clip': 0.07790204571004462, 'target_update_period': 34, 'batch_size': 270}. Best is trial 6 with value: 111.0.
+2021-07-17 12:55:22,226 ------------------------------------------------------------------------------
+2021-07-17 12:55:22,226 Final task score = 173.0
+2021-07-17 12:55:22,256 Trial 7 finished with value: 173.0 and parameters: {'hidden_dim': 188, 'epsilon_end': 0.0497567390131953, 'epsilon_decay': 0.4212704845223888, 'grad_clip': 0.2676768438974627, 'target_update_period': 18, 'batch_size': 417}. Best is trial 7 with value: 173.0.
+2021-07-17 12:55:49,573 ------------------------------------------------------------------------------
+2021-07-17 12:55:49,573 Final task score = 255.0
+2021-07-17 12:55:49,600 Trial 8 finished with value: 255.0 and parameters: {'hidden_dim': 161, 'epsilon_end': 0.04154756589586005, 'epsilon_decay': 0.6727901071361333, 'grad_clip': 0.29485938692818575, 'target_update_period': 30, 'batch_size': 328}. Best is trial 8 with value: 255.0.
+2021-07-17 12:55:57,730 ------------------------------------------------------------------------------
+2021-07-17 12:55:57,730 Final task score = 96.0
+2021-07-17 12:55:57,739 Trial 9 finished with value: 96.0 and parameters: {'hidden_dim': 192, 'epsilon_end': 0.015182097739385173, 'epsilon_decay': 0.5762709075984154, 'grad_clip': 0.23320883450542357, 'target_update_period': 37, 'batch_size': 336}. Best is trial 8 with value: 255.0.
+2021-07-17 12:56:02,977 ------------------------------------------------------------------------------
+2021-07-17 12:56:02,977 Final task score = 107.0
+2021-07-17 12:56:02,985 Trial 10 finished with value: 107.0 and parameters: {'hidden_dim': 83, 'epsilon_end': 0.049973674787054695, 'epsilon_decay': 0.840077152598209, 'grad_clip': 0.2766142271313049, 'target_update_period': 15, 'batch_size': 139}. Best is trial 8 with value: 255.0.
+2021-07-17 12:56:23,122 ------------------------------------------------------------------------------
+2021-07-17 12:56:23,122 Final task score = 152.0
+2021-07-17 12:56:23,147 Trial 11 finished with value: 152.0 and parameters: {'hidden_dim': 200, 'epsilon_end': 0.04990573409608324, 'epsilon_decay': 0.18052369714934885, 'grad_clip': 0.2978649683298154, 'target_update_period': 18, 'batch_size': 204}. Best is trial 8 with value: 255.0.
+2021-07-17 12:57:08,115 ------------------------------------------------------------------------------
+2021-07-17 12:57:08,116 Final task score = 141.0
+2021-07-17 12:57:08,154 Trial 12 finished with value: 141.0 and parameters: {'hidden_dim': 165, 'epsilon_end': 0.0416757918198675, 'epsilon_decay': 0.7634865825216061, 'grad_clip': 0.29848164254693393, 'target_update_period': 21, 'batch_size': 440}. Best is trial 8 with value: 255.0.
+2021-07-17 12:58:05,047 ------------------------------------------------------------------------------
+2021-07-17 12:58:05,047 Final task score = 220.0
+2021-07-17 12:58:05,099 Trial 13 finished with value: 220.0 and parameters: {'hidden_dim': 174, 'epsilon_end': 0.04497803706925517, 'epsilon_decay': 0.46487226433756257, 'grad_clip': 0.2624883329584598, 'target_update_period': 7, 'batch_size': 402}. Best is trial 8 with value: 255.0.
+2021-07-17 12:58:34,308 ------------------------------------------------------------------------------
+2021-07-17 12:58:34,308 Final task score = 142.0
+2021-07-17 12:58:34,343 Trial 14 finished with value: 142.0 and parameters: {'hidden_dim': 166, 'epsilon_end': 0.040950614542282486, 'epsilon_decay': 0.7421555532402297, 'grad_clip': 0.2555025051576917, 'target_update_period': 6, 'batch_size': 236}. Best is trial 8 with value: 255.0.
+2021-07-17 12:58:37,663 ------------------------------------------------------------------------------
+2021-07-17 12:58:37,663 Final task score = 30.0
+2021-07-17 12:58:37,669 Trial 15 finished with value: 30.0 and parameters: {'hidden_dim': 143, 'epsilon_end': 0.042224039549950715, 'epsilon_decay': 0.11609545594093229, 'grad_clip': 0.20744299655677498, 'target_update_period': 29, 'batch_size': 57}. Best is trial 8 with value: 255.0.
+2021-07-17 12:59:45,489 ------------------------------------------------------------------------------
+2021-07-17 12:59:45,489 Final task score = 263.0
+2021-07-17 12:59:45,554 Trial 16 finished with value: 263.0 and parameters: {'hidden_dim': 180, 'epsilon_end': 0.04566589513839482, 'epsilon_decay': 0.9132331468015517, 'grad_clip': 0.295086018044171, 'target_update_period': 12, 'batch_size': 371}. Best is trial 16 with value: 263.0.
+2021-07-17 13:00:11,025 ------------------------------------------------------------------------------
+2021-07-17 13:00:11,025 Final task score = 154.0
+2021-07-17 13:00:11,061 Trial 17 finished with value: 154.0 and parameters: {'hidden_dim': 100, 'epsilon_end': 0.02027588488920222, 'epsilon_decay': 0.989945392096359, 'grad_clip': 0.2906372061985318, 'target_update_period': 12, 'batch_size': 194}. Best is trial 16 with value: 263.0.
+2021-07-17 13:00:33,744 ------------------------------------------------------------------------------
+2021-07-17 13:00:33,744 Final task score = 127.0
+2021-07-17 13:00:33,765 Trial 18 finished with value: 127.0 and parameters: {'hidden_dim': 140, 'epsilon_end': 0.03441826361248297, 'epsilon_decay': 0.8312538513287806, 'grad_clip': 0.17837311751186724, 'target_update_period': 25, 'batch_size': 365}. Best is trial 16 with value: 263.0.
+2021-07-17 13:00:52,359 ------------------------------------------------------------------------------
+2021-07-17 13:00:52,360 Final task score = 97.0
+2021-07-17 13:00:52,381 Trial 19 finished with value: 97.0 and parameters: {'hidden_dim': 183, 'epsilon_end': 0.046099634225169966, 'epsilon_decay': 0.924692615658188, 'grad_clip': 0.23384427813751354, 'target_update_period': 33, 'batch_size': 274}. Best is trial 16 with value: 263.0.
+2021-07-17 13:01:49,367 ------------------------------------------------------------------------------
+2021-07-17 13:01:49,367 Final task score = 237.0
+2021-07-17 13:01:49,423 Trial 20 finished with value: 237.0 and parameters: {'hidden_dim': 120, 'epsilon_end': 0.0405064387824134, 'epsilon_decay': 0.6553211008993075, 'grad_clip': 0.05196683940716887, 'target_update_period': 12, 'batch_size': 369}. Best is trial 16 with value: 263.0.
+2021-07-17 13:02:23,382 ------------------------------------------------------------------------------
+2021-07-17 13:02:23,383 Final task score = 142.0
+2021-07-17 13:02:23,412 Trial 21 finished with value: 142.0 and parameters: {'hidden_dim': 115, 'epsilon_end': 0.03842744622605903, 'epsilon_decay': 0.675631460880879, 'grad_clip': 0.058304547894992564, 'target_update_period': 14, 'batch_size': 453}. Best is trial 16 with value: 263.0.
+2021-07-17 13:03:00,623 ------------------------------------------------------------------------------
+2021-07-17 13:03:00,624 Final task score = 197.0
+2021-07-17 13:03:00,658 Trial 22 finished with value: 197.0 and parameters: {'hidden_dim': 151, 'epsilon_end': 0.046133581483846754, 'epsilon_decay': 0.875714442456943, 'grad_clip': 0.08650982599953659, 'target_update_period': 20, 'batch_size': 380}. Best is trial 16 with value: 263.0.
+2021-07-17 13:03:25,126 ------------------------------------------------------------------------------
+2021-07-17 13:03:25,127 Final task score = 97.0
+2021-07-17 13:03:25,153 Trial 23 finished with value: 97.0 and parameters: {'hidden_dim': 126, 'epsilon_end': 0.028158861708842436, 'epsilon_decay': 0.6638049361167131, 'grad_clip': 0.15533969676191173, 'target_update_period': 11, 'batch_size': 304}. Best is trial 16 with value: 263.0.
+2021-07-17 13:03:29,212 ------------------------------------------------------------------------------
+2021-07-17 13:03:29,212 Final task score = 23.0
+2021-07-17 13:03:29,218 Trial 24 finished with value: 23.0 and parameters: {'hidden_dim': 60, 'epsilon_end': 0.036844736384298055, 'epsilon_decay': 0.74629225803745, 'grad_clip': 0.052540729130319416, 'target_update_period': 43, 'batch_size': 369}. Best is trial 16 with value: 263.0.
+2021-07-17 13:03:47,485 ------------------------------------------------------------------------------
+2021-07-17 13:03:47,485 Final task score = 137.0
+2021-07-17 13:03:47,503 Trial 25 finished with value: 137.0 and parameters: {'hidden_dim': 100, 'epsilon_end': 0.046357254445358306, 'epsilon_decay': 0.6048430478457195, 'grad_clip': 0.28633125477635574, 'target_update_period': 22, 'batch_size': 446}. Best is trial 16 with value: 263.0.
+2021-07-17 13:03:53,517 ------------------------------------------------------------------------------
+2021-07-17 13:03:53,517 Final task score = 27.0
+2021-07-17 13:03:53,524 Trial 26 finished with value: 27.0 and parameters: {'hidden_dim': 152, 'epsilon_end': 0.022609794561599117, 'epsilon_decay': 0.512433612159805, 'grad_clip': 0.24910125512300854, 'target_update_period': 31, 'batch_size': 290}. Best is trial 16 with value: 263.0.
+2021-07-17 13:04:36,456 ------------------------------------------------------------------------------
+2021-07-17 13:04:36,456 Final task score = 169.0
+2021-07-17 13:04:36,504 Trial 27 finished with value: 169.0 and parameters: {'hidden_dim': 200, 'epsilon_end': 0.03926156265661894, 'epsilon_decay': 0.7912565786411417, 'grad_clip': 0.2116018039334089, 'target_update_period': 5, 'batch_size': 243}. Best is trial 16 with value: 263.0.
+2021-07-17 13:05:00,948 ------------------------------------------------------------------------------
+2021-07-17 13:05:00,948 Final task score = 148.0
+2021-07-17 13:05:00,972 Trial 28 finished with value: 148.0 and parameters: {'hidden_dim': 180, 'epsilon_end': 0.031132544195553242, 'epsilon_decay': 0.9101614921566055, 'grad_clip': 0.1445050445394333, 'target_update_period': 23, 'batch_size': 345}. Best is trial 16 with value: 263.0.
+2021-07-17 13:05:06,903 ------------------------------------------------------------------------------
+2021-07-17 13:05:06,903 Final task score = 22.0
+2021-07-17 13:05:06,910 Trial 29 finished with value: 22.0 and parameters: {'hidden_dim': 160, 'epsilon_end': 0.03617634971484296, 'epsilon_decay': 0.6640726481841269, 'grad_clip': 0.18779114077310974, 'target_update_period': 38, 'batch_size': 416}. Best is trial 16 with value: 263.0.
+2021-07-17 13:05:28,515 ------------------------------------------------------------------------------
+2021-07-17 13:05:28,515 Final task score = 120.0
+2021-07-17 13:05:28,537 Trial 30 finished with value: 120.0 and parameters: {'hidden_dim': 129, 'epsilon_end': 0.04376177989959584, 'epsilon_decay': 0.519802199285669, 'grad_clip': 0.22476813216873542, 'target_update_period': 10, 'batch_size': 321}. Best is trial 16 with value: 263.0.
+2021-07-17 13:07:05,391 ------------------------------------------------------------------------------
+2021-07-17 13:07:05,392 Final task score = 326.0
+2021-07-17 13:07:05,475 Trial 31 finished with value: 326.0 and parameters: {'hidden_dim': 173, 'epsilon_end': 0.044958789218172965, 'epsilon_decay': 0.4127139134065607, 'grad_clip': 0.26779588810240984, 'target_update_period': 8, 'batch_size': 393}. Best is trial 31 with value: 326.0.
+2021-07-17 13:07:44,864 ------------------------------------------------------------------------------
+2021-07-17 13:07:44,865 Final task score = 177.0
+2021-07-17 13:07:44,902 Trial 32 finished with value: 177.0 and parameters: {'hidden_dim': 169, 'epsilon_end': 0.04823462564253893, 'epsilon_decay': 0.45853508345368577, 'grad_clip': 0.2842385115845964, 'target_update_period': 16, 'batch_size': 374}. Best is trial 31 with value: 326.0.
+2021-07-17 13:09:18,912 ------------------------------------------------------------------------------
+2021-07-17 13:09:18,912 Final task score = 260.0
+2021-07-17 13:09:18,997 Trial 33 finished with value: 260.0 and parameters: {'hidden_dim': 156, 'epsilon_end': 0.03990451974680261, 'epsilon_decay': 0.3047483609502726, 'grad_clip': 0.24694631201989423, 'target_update_period': 10, 'batch_size': 383}. Best is trial 31 with value: 326.0.
+2021-07-17 13:11:02,507 ------------------------------------------------------------------------------
+2021-07-17 13:11:02,508 Final task score = 501.0
+2021-07-17 13:11:02,587 Trial 34 finished with value: 501.0 and parameters: {'hidden_dim': 154, 'epsilon_end': 0.04333746376187501, 'epsilon_decay': 0.2583378644061504, 'grad_clip': 0.2445614718796103, 'target_update_period': 7, 'batch_size': 407}. Best is trial 34 with value: 501.0.
+2021-07-17 13:11:41,667 ------------------------------------------------------------------------------
+2021-07-17 13:11:41,667 Final task score = 126.0
+2021-07-17 13:11:41,700 Trial 35 finished with value: 126.0 and parameters: {'hidden_dim': 151, 'epsilon_end': 0.005474264344097583, 'epsilon_decay': 0.26730663992432135, 'grad_clip': 0.2444540150287099, 'target_update_period': 9, 'batch_size': 471}. Best is trial 34 with value: 501.0.
+2021-07-17 13:12:53,914 ------------------------------------------------------------------------------
+2021-07-17 13:12:53,914 Final task score = 147.0
+2021-07-17 13:12:53,975 Trial 36 finished with value: 147.0 and parameters: {'hidden_dim': 194, 'epsilon_end': 0.04477517977716292, 'epsilon_decay': 0.23650717135358296, 'grad_clip': 0.2725405068075198, 'target_update_period': 5, 'batch_size': 416}. Best is trial 34 with value: 501.0.
+2021-07-17 13:13:52,829 ------------------------------------------------------------------------------
+2021-07-17 13:13:52,829 Final task score = 176.0
+2021-07-17 13:13:52,872 Trial 37 finished with value: 176.0 and parameters: {'hidden_dim': 176, 'epsilon_end': 0.04735634603436448, 'epsilon_decay': 0.3765915517141263, 'grad_clip': 0.2258989890155431, 'target_update_period': 9, 'batch_size': 396}. Best is trial 34 with value: 501.0.
+2021-07-17 13:14:31,195 ------------------------------------------------------------------------------
+2021-07-17 13:14:31,195 Final task score = 138.0
+2021-07-17 13:14:31,229 Trial 38 finished with value: 138.0 and parameters: {'hidden_dim': 131, 'epsilon_end': 0.033953181156512365, 'epsilon_decay': 0.3094401593873905, 'grad_clip': 0.24641063573674105, 'target_update_period': 13, 'batch_size': 437}. Best is trial 34 with value: 501.0.
+2021-07-17 13:15:34,921 ------------------------------------------------------------------------------
+2021-07-17 13:15:34,921 Final task score = 257.0
+2021-07-17 13:15:34,974 Trial 39 finished with value: 257.0 and parameters: {'hidden_dim': 146, 'epsilon_end': 0.038005401177250764, 'epsilon_decay': 0.10879167738884765, 'grad_clip': 0.26502860623648306, 'target_update_period': 5, 'batch_size': 488}. Best is trial 34 with value: 501.0.
+2021-07-17 13:16:00,446 ------------------------------------------------------------------------------
+2021-07-17 13:16:00,447 Final task score = 126.0
+2021-07-17 13:16:00,470 Trial 40 finished with value: 126.0 and parameters: {'hidden_dim': 186, 'epsilon_end': 0.04315989028312847, 'epsilon_decay': 0.41010562201552425, 'grad_clip': 0.1906673640497421, 'target_update_period': 8, 'batch_size': 395}. Best is trial 34 with value: 501.0.
+2021-07-17 13:16:28,920 ------------------------------------------------------------------------------
+2021-07-17 13:16:28,921 Final task score = 125.0
+2021-07-17 13:16:28,945 Trial 41 finished with value: 125.0 and parameters: {'hidden_dim': 156, 'epsilon_end': 0.03939171134619874, 'epsilon_decay': 0.13981250307792525, 'grad_clip': 0.26264343303620646, 'target_update_period': 5, 'batch_size': 489}. Best is trial 34 with value: 501.0.
+2021-07-17 13:17:08,758 ------------------------------------------------------------------------------
+2021-07-17 13:17:08,759 Final task score = 155.0
+2021-07-17 13:17:08,792 Trial 42 finished with value: 155.0 and parameters: {'hidden_dim': 175, 'epsilon_end': 0.03794442262136777, 'epsilon_decay': 0.20834832593614236, 'grad_clip': 0.27663006397068746, 'target_update_period': 7, 'batch_size': 480}. Best is trial 34 with value: 501.0.
+2021-07-17 13:17:32,605 ------------------------------------------------------------------------------
+2021-07-17 13:17:32,605 Final task score = 132.0
+2021-07-17 13:17:32,627 Trial 43 finished with value: 132.0 and parameters: {'hidden_dim': 144, 'epsilon_end': 0.0498339034511354, 'epsilon_decay': 0.31890960564713955, 'grad_clip': 0.2560049219463886, 'target_update_period': 17, 'batch_size': 460}. Best is trial 34 with value: 501.0.
+2021-07-17 13:18:04,135 ------------------------------------------------------------------------------
+2021-07-17 13:18:04,135 Final task score = 133.0
+2021-07-17 13:18:04,167 Trial 44 finished with value: 133.0 and parameters: {'hidden_dim': 139, 'epsilon_end': 0.027031680089088166, 'epsilon_decay': 0.25243726589478355, 'grad_clip': 0.21558604951664945, 'target_update_period': 10, 'batch_size': 345}. Best is trial 34 with value: 501.0.
+2021-07-17 13:18:25,588 ------------------------------------------------------------------------------
+2021-07-17 13:18:25,588 Final task score = 104.0
+2021-07-17 13:18:25,608 Trial 45 finished with value: 104.0 and parameters: {'hidden_dim': 165, 'epsilon_end': 0.048248923304374046, 'epsilon_decay': 0.35950126382365855, 'grad_clip': 0.2781104808032889, 'target_update_period': 5, 'batch_size': 425}. Best is trial 34 with value: 501.0.
+2021-07-17 13:18:40,561 ------------------------------------------------------------------------------
+2021-07-17 13:18:40,561 Final task score = 152.0
+2021-07-17 13:18:40,575 Trial 46 finished with value: 152.0 and parameters: {'hidden_dim': 148, 'epsilon_end': 0.029418621382334944, 'epsilon_decay': 0.16755873598308954, 'grad_clip': 0.24195226352071114, 'target_update_period': 14, 'batch_size': 498}. Best is trial 34 with value: 501.0.
+2021-07-17 13:18:57,196 ------------------------------------------------------------------------------
+2021-07-17 13:18:57,196 Final task score = 94.0
+2021-07-17 13:18:57,214 Trial 47 finished with value: 94.0 and parameters: {'hidden_dim': 134, 'epsilon_end': 0.03463745196959447, 'epsilon_decay': 0.42094422335507575, 'grad_clip': 0.2633826968561671, 'target_update_period': 7, 'batch_size': 357}. Best is trial 34 with value: 501.0.
+2021-07-17 13:20:00,746 ------------------------------------------------------------------------------
+2021-07-17 13:20:00,746 Final task score = 265.0
+2021-07-17 13:20:00,803 Trial 48 finished with value: 265.0 and parameters: {'hidden_dim': 193, 'epsilon_end': 0.0432288392626319, 'epsilon_decay': 0.274397553043742, 'grad_clip': 0.299241424520414, 'target_update_period': 19, 'batch_size': 393}. Best is trial 34 with value: 501.0.
+2021-07-17 13:20:25,299 ------------------------------------------------------------------------------
+2021-07-17 13:20:25,299 Final task score = 162.0
+2021-07-17 13:20:25,321 Trial 49 finished with value: 162.0 and parameters: {'hidden_dim': 193, 'epsilon_end': 0.042922759122052, 'epsilon_decay': 0.28691277325740683, 'grad_clip': 0.29314984528538585, 'target_update_period': 18, 'batch_size': 403}. Best is trial 34 with value: 501.0.
+2021-07-17 13:21:04,328 ------------------------------------------------------------------------------
+2021-07-17 13:21:04,328 Final task score = 208.0
+2021-07-17 13:21:04,364 Trial 50 finished with value: 208.0 and parameters: {'hidden_dim': 198, 'epsilon_end': 0.04437051935049923, 'epsilon_decay': 0.3358123125908335, 'grad_clip': 0.2954801380206021, 'target_update_period': 16, 'batch_size': 395}. Best is trial 34 with value: 501.0.
+2021-07-17 13:21:49,508 ------------------------------------------------------------------------------
+2021-07-17 13:21:49,508 Final task score = 214.0
+2021-07-17 13:21:49,550 Trial 51 finished with value: 214.0 and parameters: {'hidden_dim': 170, 'epsilon_end': 0.04160059529091084, 'epsilon_decay': 0.17805825488096316, 'grad_clip': 0.2712799641858633, 'target_update_period': 11, 'batch_size': 384}. Best is trial 34 with value: 501.0.
+2021-07-17 13:22:29,650 ------------------------------------------------------------------------------
+2021-07-17 13:22:29,650 Final task score = 223.0
+2021-07-17 13:22:29,692 Trial 52 finished with value: 223.0 and parameters: {'hidden_dim': 184, 'epsilon_end': 0.0480294929094585, 'epsilon_decay': 0.22604415625847188, 'grad_clip': 0.29945224800400827, 'target_update_period': 8, 'batch_size': 307}. Best is trial 34 with value: 501.0.
+2021-07-17 13:23:06,854 ------------------------------------------------------------------------------
+2021-07-17 13:23:06,855 Final task score = 186.0
+2021-07-17 13:23:06,889 Trial 53 finished with value: 186.0 and parameters: {'hidden_dim': 160, 'epsilon_end': 0.04017888175313437, 'epsilon_decay': 0.2853348954377354, 'grad_clip': 0.2541424400751501, 'target_update_period': 13, 'batch_size': 430}. Best is trial 34 with value: 501.0.
+2021-07-17 13:23:26,562 ------------------------------------------------------------------------------
+2021-07-17 13:23:26,562 Final task score = 112.0
+2021-07-17 13:23:26,583 Trial 54 finished with value: 112.0 and parameters: {'hidden_dim': 176, 'epsilon_end': 0.03704031940350425, 'epsilon_decay': 0.10666228167161217, 'grad_clip': 0.2822969712477624, 'target_update_period': 19, 'batch_size': 335}. Best is trial 34 with value: 501.0.
+2021-07-17 13:23:37,088 ------------------------------------------------------------------------------
+2021-07-17 13:23:37,088 Final task score = 131.0
+2021-07-17 13:23:37,101 Trial 55 finished with value: 131.0 and parameters: {'hidden_dim': 20, 'epsilon_end': 0.04997274854634795, 'epsilon_decay': 0.38963508303265354, 'grad_clip': 0.2673869876214079, 'target_update_period': 26, 'batch_size': 460}. Best is trial 34 with value: 501.0.
+2021-07-17 13:24:19,242 ------------------------------------------------------------------------------
+2021-07-17 13:24:19,243 Final task score = 157.0
+2021-07-17 13:24:19,282 Trial 56 finished with value: 157.0 and parameters: {'hidden_dim': 190, 'epsilon_end': 0.03261272010423601, 'epsilon_decay': 0.21424793528218053, 'grad_clip': 0.22568314510764345, 'target_update_period': 15, 'batch_size': 355}. Best is trial 34 with value: 501.0.
+2021-07-17 13:25:02,093 ------------------------------------------------------------------------------
+2021-07-17 13:25:02,093 Final task score = 243.0
+2021-07-17 13:25:02,131 Trial 57 finished with value: 243.0 and parameters: {'hidden_dim': 158, 'epsilon_end': 0.04487221128523643, 'epsilon_decay': 0.46245427246731996, 'grad_clip': 0.23529140999169548, 'target_update_period': 11, 'batch_size': 413}. Best is trial 34 with value: 501.0.
+2021-07-17 13:25:42,907 ------------------------------------------------------------------------------
+2021-07-17 13:25:42,907 Final task score = 137.0
+2021-07-17 13:25:42,938 Trial 58 finished with value: 137.0 and parameters: {'hidden_dim': 170, 'epsilon_end': 0.04209667036233882, 'epsilon_decay': 0.1499766724300297, 'grad_clip': 0.2559362906978192, 'target_update_period': 7, 'batch_size': 437}. Best is trial 34 with value: 501.0.
+2021-07-17 13:27:09,264 ------------------------------------------------------------------------------
+2021-07-17 13:27:09,264 Final task score = 277.0
+2021-07-17 13:27:09,346 Trial 59 finished with value: 277.0 and parameters: {'hidden_dim': 182, 'epsilon_end': 0.046253037614552905, 'epsilon_decay': 0.35437288886701185, 'grad_clip': 0.2898599217586722, 'target_update_period': 9, 'batch_size': 291}. Best is trial 34 with value: 501.0.
+2021-07-17 13:27:25,783 ------------------------------------------------------------------------------
+2021-07-17 13:27:25,783 Final task score = 92.0
+2021-07-17 13:27:25,801 Trial 60 finished with value: 92.0 and parameters: {'hidden_dim': 180, 'epsilon_end': 0.046139974396099924, 'epsilon_decay': 0.35521954553029705, 'grad_clip': 0.2879197805428091, 'target_update_period': 13, 'batch_size': 260}. Best is trial 34 with value: 501.0.
+2021-07-17 13:28:08,133 ------------------------------------------------------------------------------
+2021-07-17 13:28:08,134 Final task score = 191.0
+2021-07-17 13:28:08,174 Trial 61 finished with value: 191.0 and parameters: {'hidden_dim': 187, 'epsilon_end': 0.0407921806990109, 'epsilon_decay': 0.3085536470957032, 'grad_clip': 0.2991672956621932, 'target_update_period': 9, 'batch_size': 290}. Best is trial 34 with value: 501.0.
+2021-07-17 13:29:00,603 ------------------------------------------------------------------------------
+2021-07-17 13:29:00,603 Final task score = 180.0
+2021-07-17 13:29:00,647 Trial 62 finished with value: 180.0 and parameters: {'hidden_dim': 163, 'epsilon_end': 0.04356551281174416, 'epsilon_decay': 0.2717025543458489, 'grad_clip': 0.2805255611589475, 'target_update_period': 6, 'batch_size': 381}. Best is trial 34 with value: 501.0.
+2021-07-17 13:29:40,788 ------------------------------------------------------------------------------
+2021-07-17 13:29:40,789 Final task score = 189.0
+2021-07-17 13:29:40,847 Trial 63 finished with value: 189.0 and parameters: {'hidden_dim': 200, 'epsilon_end': 0.04675519187113357, 'epsilon_decay': 0.39314635532929865, 'grad_clip': 0.2687110525781135, 'target_update_period': 10, 'batch_size': 153}. Best is trial 34 with value: 501.0.
+2021-07-17 13:30:21,855 ------------------------------------------------------------------------------
+2021-07-17 13:30:21,856 Final task score = 131.0
+2021-07-17 13:30:21,892 Trial 64 finished with value: 131.0 and parameters: {'hidden_dim': 180, 'epsilon_end': 0.03841280513357459, 'epsilon_decay': 0.43685719387507527, 'grad_clip': 0.2576249659912764, 'target_update_period': 12, 'batch_size': 326}. Best is trial 34 with value: 501.0.
+2021-07-17 13:30:56,915 ------------------------------------------------------------------------------
+2021-07-17 13:30:56,915 Final task score = 145.0
+2021-07-17 13:30:56,948 Trial 65 finished with value: 145.0 and parameters: {'hidden_dim': 145, 'epsilon_end': 0.048885335099358586, 'epsilon_decay': 0.33826369018123903, 'grad_clip': 0.28835716084262386, 'target_update_period': 8, 'batch_size': 356}. Best is trial 34 with value: 501.0.
+2021-07-17 13:31:27,024 ------------------------------------------------------------------------------
+2021-07-17 13:31:27,024 Final task score = 132.0
+2021-07-17 13:31:27,055 Trial 66 finished with value: 132.0 and parameters: {'hidden_dim': 153, 'epsilon_end': 0.045365694453541563, 'epsilon_decay': 0.5615202507487482, 'grad_clip': 0.2373849441244812, 'target_update_period': 6, 'batch_size': 223}. Best is trial 34 with value: 501.0.
+2021-07-17 13:32:16,683 ------------------------------------------------------------------------------
+2021-07-17 13:32:16,683 Final task score = 207.0
+2021-07-17 13:32:16,725 Trial 67 finished with value: 207.0 and parameters: {'hidden_dim': 171, 'epsilon_end': 0.04234702197240184, 'epsilon_decay': 0.19674665634864297, 'grad_clip': 0.29942246582767323, 'target_update_period': 10, 'batch_size': 408}. Best is trial 34 with value: 501.0.
+2021-07-17 13:32:49,433 ------------------------------------------------------------------------------
+2021-07-17 13:32:49,433 Final task score = 132.0
+2021-07-17 13:32:49,460 Trial 68 finished with value: 132.0 and parameters: {'hidden_dim': 195, 'epsilon_end': 0.01697334572079303, 'epsilon_decay': 0.24202595586145795, 'grad_clip': 0.2741890700722325, 'target_update_period': 15, 'batch_size': 390}. Best is trial 34 with value: 501.0.
+2021-07-17 13:33:09,629 ------------------------------------------------------------------------------
+2021-07-17 13:33:09,629 Final task score = 158.0
+2021-07-17 13:33:09,651 Trial 69 finished with value: 158.0 and parameters: {'hidden_dim': 109, 'epsilon_end': 0.04008600005239254, 'epsilon_decay': 0.2918491607379976, 'grad_clip': 0.24959496416005084, 'target_update_period': 23, 'batch_size': 291}. Best is trial 34 with value: 501.0.
+2021-07-17 13:33:15,010 ------------------------------------------------------------------------------
+2021-07-17 13:33:15,010 Final task score = 51.0
+2021-07-17 13:33:15,020 Trial 70 finished with value: 51.0 and parameters: {'hidden_dim': 155, 'epsilon_end': 0.0077190032981528, 'epsilon_decay': 0.5136426885214025, 'grad_clip': 0.2636183707299875, 'target_update_period': 5, 'batch_size': 56}. Best is trial 34 with value: 501.0.
+2021-07-17 13:33:50,891 ------------------------------------------------------------------------------
+2021-07-17 13:33:50,891 Final task score = 170.0
+2021-07-17 13:33:50,924 Trial 71 finished with value: 170.0 and parameters: {'hidden_dim': 180, 'epsilon_end': 0.041447277375929924, 'epsilon_decay': 0.9726027572223281, 'grad_clip': 0.2926852101446423, 'target_update_period': 29, 'batch_size': 325}. Best is trial 34 with value: 501.0.
+2021-07-17 13:34:30,599 ------------------------------------------------------------------------------
+2021-07-17 13:34:30,599 Final task score = 216.0
+2021-07-17 13:34:30,636 Trial 72 finished with value: 216.0 and parameters: {'hidden_dim': 169, 'epsilon_end': 0.035622531134720664, 'epsilon_decay': 0.7154286743435234, 'grad_clip': 0.28409518204218925, 'target_update_period': 33, 'batch_size': 339}. Best is trial 34 with value: 501.0.
+2021-07-17 13:34:35,585 ------------------------------------------------------------------------------
+2021-07-17 13:34:35,585 Final task score = 22.0
+2021-07-17 13:34:35,591 Trial 73 finished with value: 22.0 and parameters: {'hidden_dim': 163, 'epsilon_end': 0.0435212557839904, 'epsilon_decay': 0.6182033547689699, 'grad_clip': 0.2741301632537289, 'target_update_period': 36, 'batch_size': 361}. Best is trial 34 with value: 501.0.
+2021-07-17 13:34:44,614 ------------------------------------------------------------------------------
+2021-07-17 13:34:44,615 Final task score = 68.0
+2021-07-17 13:34:44,623 Trial 74 finished with value: 68.0 and parameters: {'hidden_dim': 175, 'epsilon_end': 0.04713093841001387, 'epsilon_decay': 0.48479352214925, 'grad_clip': 0.28953839126975495, 'target_update_period': 31, 'batch_size': 373}. Best is trial 34 with value: 501.0.
+2021-07-17 13:34:52,864 ------------------------------------------------------------------------------
+2021-07-17 13:34:52,864 Final task score = 49.0
+2021-07-17 13:34:52,873 Trial 75 finished with value: 49.0 and parameters: {'hidden_dim': 147, 'epsilon_end': 0.03782163917749508, 'epsilon_decay': 0.3199407107521272, 'grad_clip': 0.2803671779899416, 'target_update_period': 26, 'batch_size': 256}. Best is trial 34 with value: 501.0.
+2021-07-17 13:35:36,998 ------------------------------------------------------------------------------
+2021-07-17 13:35:36,999 Final task score = 247.0
+2021-07-17 13:35:37,041 Trial 76 finished with value: 247.0 and parameters: {'hidden_dim': 135, 'epsilon_end': 0.0451335876776597, 'epsilon_decay': 0.857653938544062, 'grad_clip': 0.2679232051313397, 'target_update_period': 28, 'batch_size': 313}. Best is trial 34 with value: 501.0.
+2021-07-17 13:35:47,749 ------------------------------------------------------------------------------
+2021-07-17 13:35:47,749 Final task score = 70.0
+2021-07-17 13:35:47,762 Trial 77 finished with value: 70.0 and parameters: {'hidden_dim': 73, 'epsilon_end': 0.039249835754158906, 'epsilon_decay': 0.43367049112129274, 'grad_clip': 0.11386116888423933, 'target_update_period': 21, 'batch_size': 336}. Best is trial 34 with value: 501.0.
+2021-07-17 13:36:22,343 ------------------------------------------------------------------------------
+2021-07-17 13:36:22,343 Final task score = 197.0
+2021-07-17 13:36:22,377 Trial 78 finished with value: 197.0 and parameters: {'hidden_dim': 187, 'epsilon_end': 0.04895905904203434, 'epsilon_decay': 0.9441887727624654, 'grad_clip': 0.2157069192114952, 'target_update_period': 24, 'batch_size': 299}. Best is trial 34 with value: 501.0.
+2021-07-17 13:36:32,262 ------------------------------------------------------------------------------
+2021-07-17 13:36:32,263 Final task score = 110.0
+2021-07-17 13:36:32,273 Trial 79 finished with value: 110.0 and parameters: {'hidden_dim': 159, 'epsilon_end': 0.04375671471225804, 'epsilon_decay': 0.8013970279166297, 'grad_clip': 0.19959357508034722, 'target_update_period': 30, 'batch_size': 279}. Best is trial 34 with value: 501.0.
+2021-07-17 13:37:19,247 ------------------------------------------------------------------------------
+2021-07-17 13:37:19,262 Final task score = 147.0
+2021-07-17 13:37:19,301 Trial 80 finished with value: 147.0 and parameters: {'hidden_dim': 166, 'epsilon_end': 0.04588943748485908, 'epsilon_decay': 0.3757469343132512, 'grad_clip': 0.2998712865412701, 'target_update_period': 9, 'batch_size': 429}. Best is trial 34 with value: 501.0.
+2021-07-17 13:37:54,348 ------------------------------------------------------------------------------
+2021-07-17 13:37:54,348 Final task score = 178.0
+2021-07-17 13:37:54,381 Trial 81 finished with value: 178.0 and parameters: {'hidden_dim': 141, 'epsilon_end': 0.0445699529419333, 'epsilon_decay': 0.8702441849872149, 'grad_clip': 0.24086138249724745, 'target_update_period': 31, 'batch_size': 304}. Best is trial 34 with value: 501.0.
+2021-07-17 13:38:06,122 ------------------------------------------------------------------------------
+2021-07-17 13:38:06,123 Final task score = 94.0
+2021-07-17 13:38:06,135 Trial 82 finished with value: 94.0 and parameters: {'hidden_dim': 122, 'epsilon_end': 0.04253536854158679, 'epsilon_decay': 0.7092498776219718, 'grad_clip': 0.24876102022088453, 'target_update_period': 27, 'batch_size': 315}. Best is trial 34 with value: 501.0.
+2021-07-17 13:38:24,446 ------------------------------------------------------------------------------
+2021-07-17 13:38:24,446 Final task score = 83.0
+2021-07-17 13:38:24,463 Trial 83 finished with value: 83.0 and parameters: {'hidden_dim': 136, 'epsilon_end': 0.04090126541992831, 'epsilon_decay': 0.8560978075659136, 'grad_clip': 0.26302521350719754, 'target_update_period': 29, 'batch_size': 350}. Best is trial 34 with value: 501.0.
+2021-07-17 13:38:53,880 ------------------------------------------------------------------------------
+2021-07-17 13:38:53,880 Final task score = 183.0
+2021-07-17 13:38:53,905 Trial 84 finished with value: 183.0 and parameters: {'hidden_dim': 149, 'epsilon_end': 0.04724197891927803, 'epsilon_decay': 0.8962538501954915, 'grad_clip': 0.2698725175880074, 'target_update_period': 28, 'batch_size': 369}. Best is trial 34 with value: 501.0.
+2021-07-17 13:40:10,325 ------------------------------------------------------------------------------
+2021-07-17 13:40:10,325 Final task score = 248.0
+2021-07-17 13:40:10,395 Trial 85 finished with value: 248.0 and parameters: {'hidden_dim': 116, 'epsilon_end': 0.04470797559540532, 'epsilon_decay': 0.9429702192393665, 'grad_clip': 0.23036848470568633, 'target_update_period': 12, 'batch_size': 389}. Best is trial 34 with value: 501.0.
+2021-07-17 13:41:03,282 ------------------------------------------------------------------------------
+2021-07-17 13:41:03,282 Final task score = 182.0
+2021-07-17 13:41:03,329 Trial 86 finished with value: 182.0 and parameters: {'hidden_dim': 114, 'epsilon_end': 0.03903339357553472, 'epsilon_decay': 0.9285640391720711, 'grad_clip': 0.23193588860954334, 'target_update_period': 12, 'batch_size': 380}. Best is trial 34 with value: 501.0.
+2021-07-17 13:41:46,883 ------------------------------------------------------------------------------
+2021-07-17 13:41:46,883 Final task score = 228.0
+2021-07-17 13:41:46,922 Trial 87 finished with value: 228.0 and parameters: {'hidden_dim': 93, 'epsilon_end': 0.03703872363823541, 'epsilon_decay': 0.12742075064279695, 'grad_clip': 0.25756949666252416, 'target_update_period': 7, 'batch_size': 402}. Best is trial 34 with value: 501.0.
+2021-07-17 13:42:59,513 ------------------------------------------------------------------------------
+2021-07-17 13:42:59,513 Final task score = 219.0
+2021-07-17 13:42:59,565 Trial 88 finished with value: 219.0 and parameters: {'hidden_dim': 181, 'epsilon_end': 0.04266667158340783, 'epsilon_decay': 0.264294340669723, 'grad_clip': 0.22048468061800774, 'target_update_period': 14, 'batch_size': 449}. Best is trial 34 with value: 501.0.
+2021-07-17 13:44:36,104 ------------------------------------------------------------------------------
+2021-07-17 13:44:36,105 Final task score = 501.0
+2021-07-17 13:44:36,182 Trial 89 finished with value: 501.0 and parameters: {'hidden_dim': 173, 'epsilon_end': 0.023582606423380996, 'epsilon_decay': 0.540258445716241, 'grad_clip': 0.23148579275460046, 'target_update_period': 11, 'batch_size': 421}. Best is trial 34 with value: 501.0.
+2021-07-17 13:45:21,243 ------------------------------------------------------------------------------
+2021-07-17 13:45:21,243 Final task score = 181.0
+2021-07-17 13:45:21,279 Trial 90 finished with value: 181.0 and parameters: {'hidden_dim': 172, 'epsilon_end': 0.024763603502938807, 'epsilon_decay': 0.6373052177087746, 'grad_clip': 0.29298216363468627, 'target_update_period': 8, 'batch_size': 472}. Best is trial 34 with value: 501.0.
+2021-07-17 13:46:53,414 ------------------------------------------------------------------------------
+2021-07-17 13:46:53,414 Final task score = 246.0
+2021-07-17 13:46:53,489 Trial 91 finished with value: 246.0 and parameters: {'hidden_dim': 166, 'epsilon_end': 0.022866877195897608, 'epsilon_decay': 0.9648354467324151, 'grad_clip': 0.228376417856435, 'target_update_period': 11, 'batch_size': 422}. Best is trial 34 with value: 501.0.
+2021-07-17 13:47:33,890 ------------------------------------------------------------------------------
+2021-07-17 13:47:33,890 Final task score = 137.0
+2021-07-17 13:47:33,925 Trial 92 finished with value: 137.0 and parameters: {'hidden_dim': 155, 'epsilon_end': 0.018641798610278308, 'epsilon_decay': 0.5727683846204101, 'grad_clip': 0.20638258494721223, 'target_update_period': 11, 'batch_size': 392}. Best is trial 34 with value: 501.0.
+2021-07-17 13:48:47,726 ------------------------------------------------------------------------------
+2021-07-17 13:48:47,726 Final task score = 284.0
+2021-07-17 13:48:47,787 Trial 93 finished with value: 284.0 and parameters: {'hidden_dim': 174, 'epsilon_end': 0.012673717848876283, 'epsilon_decay': 0.40146193410329994, 'grad_clip': 0.24148592184150774, 'target_update_period': 6, 'batch_size': 412}. Best is trial 34 with value: 501.0.
+2021-07-17 13:49:26,126 ------------------------------------------------------------------------------
+2021-07-17 13:49:26,126 Final task score = 163.0
+2021-07-17 13:49:26,159 Trial 94 finished with value: 163.0 and parameters: {'hidden_dim': 190, 'epsilon_end': 0.014198461589804822, 'epsilon_decay': 0.409211082420911, 'grad_clip': 0.24001589654857333, 'target_update_period': 6, 'batch_size': 408}. Best is trial 34 with value: 501.0.
+2021-07-17 13:50:26,792 ------------------------------------------------------------------------------
+2021-07-17 13:50:26,792 Final task score = 222.0
+2021-07-17 13:50:26,841 Trial 95 finished with value: 222.0 and parameters: {'hidden_dim': 177, 'epsilon_end': 0.013270151022155022, 'epsilon_decay': 0.4974929982084588, 'grad_clip': 0.2493927118530273, 'target_update_period': 9, 'batch_size': 415}. Best is trial 34 with value: 501.0.
+2021-07-17 13:51:01,105 ------------------------------------------------------------------------------
+2021-07-17 13:51:01,106 Final task score = 123.0
+2021-07-17 13:51:01,133 Trial 96 finished with value: 123.0 and parameters: {'hidden_dim': 183, 'epsilon_end': 0.0009669534035103358, 'epsilon_decay': 0.396748818566672, 'grad_clip': 0.2529848470315834, 'target_update_period': 6, 'batch_size': 500}. Best is trial 34 with value: 501.0.
+2021-07-17 13:52:30,068 ------------------------------------------------------------------------------
+2021-07-17 13:52:30,069 Final task score = 327.0
+2021-07-17 13:52:30,134 Trial 97 finished with value: 327.0 and parameters: {'hidden_dim': 197, 'epsilon_end': 0.010341360208319599, 'epsilon_decay': 0.33646484550388456, 'grad_clip': 0.24247922266282157, 'target_update_period': 8, 'batch_size': 440}. Best is trial 34 with value: 501.0.
+2021-07-17 13:53:24,517 ------------------------------------------------------------------------------
+2021-07-17 13:53:24,517 Final task score = 204.0
+2021-07-17 13:53:24,559 Trial 98 finished with value: 204.0 and parameters: {'hidden_dim': 195, 'epsilon_end': 0.009374646082752125, 'epsilon_decay': 0.3440582957225585, 'grad_clip': 0.24517050240525634, 'target_update_period': 5, 'batch_size': 456}. Best is trial 34 with value: 501.0.
+2021-07-17 13:54:28,698 ------------------------------------------------------------------------------
+2021-07-17 13:54:28,698 Final task score = 403.0
+2021-07-17 13:54:28,746 Trial 99 finished with value: 403.0 and parameters: {'hidden_dim': 199, 'epsilon_end': 0.0034276442191842477, 'epsilon_decay': 0.368381007545174, 'grad_clip': 0.23589767461872144, 'target_update_period': 7, 'batch_size': 440}. Best is trial 34 with value: 501.0.
+2021-07-17 13:56:01,581 ------------------------------------------------------------------------------
+2021-07-17 13:56:01,581 Final task score = 330.0
+2021-07-17 13:56:01,648 Trial 100 finished with value: 330.0 and parameters: {'hidden_dim': 197, 'epsilon_end': 0.011122782092606568, 'epsilon_decay': 0.36169043800693995, 'grad_clip': 0.22523487364251618, 'target_update_period': 8, 'batch_size': 443}. Best is trial 34 with value: 501.0.
+2021-07-17 13:56:45,215 ------------------------------------------------------------------------------
+2021-07-17 13:56:45,216 Final task score = 130.0
+2021-07-17 13:56:45,252 Trial 101 finished with value: 130.0 and parameters: {'hidden_dim': 200, 'epsilon_end': 0.012298884452201819, 'epsilon_decay': 0.36733860164020493, 'grad_clip': 0.22230942512556498, 'target_update_period': 8, 'batch_size': 446}. Best is trial 34 with value: 501.0.
+2021-07-17 13:57:07,886 ------------------------------------------------------------------------------
+2021-07-17 13:57:07,886 Final task score = 147.0
+2021-07-17 13:57:07,905 Trial 102 finished with value: 147.0 and parameters: {'hidden_dim': 197, 'epsilon_end': 0.002779300997765949, 'epsilon_decay': 0.5369749713933519, 'grad_clip': 0.21465622771683332, 'target_update_period': 9, 'batch_size': 440}. Best is trial 34 with value: 501.0.
+2021-07-17 13:57:53,790 ------------------------------------------------------------------------------
+2021-07-17 13:57:53,791 Final task score = 158.0
+2021-07-17 13:57:53,826 Trial 103 finished with value: 158.0 and parameters: {'hidden_dim': 185, 'epsilon_end': 0.009139652933480288, 'epsilon_decay': 0.3030901552792163, 'grad_clip': 0.2350529014106024, 'target_update_period': 10, 'batch_size': 432}. Best is trial 34 with value: 501.0.
+2021-07-17 13:59:14,300 ------------------------------------------------------------------------------
+2021-07-17 13:59:14,300 Final task score = 234.0
+2021-07-17 13:59:14,364 Trial 104 finished with value: 234.0 and parameters: {'hidden_dim': 190, 'epsilon_end': 0.0032993692352286455, 'epsilon_decay': 0.3274661963387105, 'grad_clip': 0.24054727196164752, 'target_update_period': 7, 'batch_size': 422}. Best is trial 34 with value: 501.0.
+2021-07-17 13:59:58,462 ------------------------------------------------------------------------------
+2021-07-17 13:59:58,462 Final task score = 153.0
+2021-07-17 13:59:58,496 Trial 105 finished with value: 153.0 and parameters: {'hidden_dim': 192, 'epsilon_end': 0.011699664507328273, 'epsilon_decay': 0.3561531051348939, 'grad_clip': 0.21909455395977007, 'target_update_period': 10, 'batch_size': 464}. Best is trial 34 with value: 501.0.
+2021-07-17 14:00:15,723 ------------------------------------------------------------------------------
+2021-07-17 14:00:15,723 Final task score = 99.0
+2021-07-17 14:00:15,737 Trial 106 finished with value: 99.0 and parameters: {'hidden_dim': 197, 'epsilon_end': 0.0054364019548580785, 'epsilon_decay': 0.44345684863659596, 'grad_clip': 0.24446240478612372, 'target_update_period': 13, 'batch_size': 476}. Best is trial 34 with value: 501.0.
+2021-07-17 14:01:22,182 ------------------------------------------------------------------------------
+2021-07-17 14:01:22,182 Final task score = 290.0
+2021-07-17 14:01:22,234 Trial 107 finished with value: 290.0 and parameters: {'hidden_dim': 188, 'epsilon_end': 0.016100308312325784, 'epsilon_decay': 0.2783545012524238, 'grad_clip': 0.22763201806710706, 'target_update_period': 8, 'batch_size': 403}. Best is trial 34 with value: 501.0.
+2021-07-17 14:01:49,965 ------------------------------------------------------------------------------
+2021-07-17 14:01:49,965 Final task score = 115.0
+2021-07-17 14:01:49,989 Trial 108 finished with value: 115.0 and parameters: {'hidden_dim': 178, 'epsilon_end': 0.010582588185780738, 'epsilon_decay': 0.25704246106143086, 'grad_clip': 0.19549006532044172, 'target_update_period': 8, 'batch_size': 442}. Best is trial 34 with value: 501.0.
+2021-07-17 14:02:19,880 ------------------------------------------------------------------------------
+2021-07-17 14:02:19,880 Final task score = 119.0
+2021-07-17 14:02:19,904 Trial 109 finished with value: 119.0 and parameters: {'hidden_dim': 184, 'epsilon_end': 0.015462129707879496, 'epsilon_decay': 0.28013945374835797, 'grad_clip': 0.21099501585870634, 'target_update_period': 7, 'batch_size': 403}. Best is trial 34 with value: 501.0.
+2021-07-17 14:03:01,341 ------------------------------------------------------------------------------
+2021-07-17 14:03:01,341 Final task score = 129.0
+2021-07-17 14:03:01,373 Trial 110 finished with value: 129.0 and parameters: {'hidden_dim': 173, 'epsilon_end': 0.016882916223045753, 'epsilon_decay': 0.414418209702346, 'grad_clip': 0.2282625367871676, 'target_update_period': 6, 'batch_size': 417}. Best is trial 34 with value: 501.0.
+2021-07-17 14:03:11,166 ------------------------------------------------------------------------------
+2021-07-17 14:03:11,166 Final task score = 77.0
+2021-07-17 14:03:11,174 Trial 111 finished with value: 77.0 and parameters: {'hidden_dim': 191, 'epsilon_end': 0.014339398812163657, 'epsilon_decay': 0.3014122098472282, 'grad_clip': 0.23693846376914351, 'target_update_period': 9, 'batch_size': 431}. Best is trial 34 with value: 501.0.
+2021-07-17 14:03:49,256 ------------------------------------------------------------------------------
+2021-07-17 14:03:49,256 Final task score = 147.0
+2021-07-17 14:03:49,287 Trial 112 finished with value: 147.0 and parameters: {'hidden_dim': 188, 'epsilon_end': 0.006875386847403343, 'epsilon_decay': 0.38454287719229874, 'grad_clip': 0.18071045990395818, 'target_update_period': 11, 'batch_size': 385}. Best is trial 34 with value: 501.0.
+2021-07-17 14:03:55,161 ------------------------------------------------------------------------------
+2021-07-17 14:03:55,161 Final task score = 24.0
+2021-07-17 14:03:55,168 Trial 113 finished with value: 24.0 and parameters: {'hidden_dim': 200, 'epsilon_end': 0.018590314917464105, 'epsilon_decay': 0.24466768627237478, 'grad_clip': 0.25295383618438655, 'target_update_period': 50, 'batch_size': 410}. Best is trial 34 with value: 501.0.
+2021-07-17 14:05:47,706 ------------------------------------------------------------------------------
+2021-07-17 14:05:47,706 Final task score = 302.0
+2021-07-17 14:05:47,797 Trial 114 finished with value: 302.0 and parameters: {'hidden_dim': 194, 'epsilon_end': 0.011358502249581815, 'epsilon_decay': 0.3240399127006743, 'grad_clip': 0.23114760793272118, 'target_update_period': 8, 'batch_size': 399}. Best is trial 34 with value: 501.0.
+2021-07-17 14:07:17,925 ------------------------------------------------------------------------------
+2021-07-17 14:07:17,925 Final task score = 226.0
+2021-07-17 14:07:17,996 Trial 115 finished with value: 226.0 and parameters: {'hidden_dim': 195, 'epsilon_end': 0.010747242336740114, 'epsilon_decay': 0.3338379158506373, 'grad_clip': 0.22450294343472543, 'target_update_period': 7, 'batch_size': 400}. Best is trial 34 with value: 501.0.
+2021-07-17 14:08:06,182 ------------------------------------------------------------------------------
+2021-07-17 14:08:06,183 Final task score = 241.0
+2021-07-17 14:08:06,219 Trial 116 finished with value: 241.0 and parameters: {'hidden_dim': 187, 'epsilon_end': 0.00881882255840128, 'epsilon_decay': 0.34845580600327525, 'grad_clip': 0.23287525634561662, 'target_update_period': 8, 'batch_size': 421}. Best is trial 34 with value: 501.0.
+2021-07-17 14:08:38,149 ------------------------------------------------------------------------------
+2021-07-17 14:08:38,149 Final task score = 114.0
+2021-07-17 14:08:38,174 Trial 117 finished with value: 114.0 and parameters: {'hidden_dim': 183, 'epsilon_end': 0.012538240029391731, 'epsilon_decay': 0.3720644588733383, 'grad_clip': 0.20966141781883976, 'target_update_period': 5, 'batch_size': 451}. Best is trial 34 with value: 501.0.
+2021-07-17 14:09:24,094 ------------------------------------------------------------------------------
+2021-07-17 14:09:24,094 Final task score = 133.0
+2021-07-17 14:09:24,128 Trial 118 finished with value: 133.0 and parameters: {'hidden_dim': 193, 'epsilon_end': 0.004767647986789242, 'epsilon_decay': 0.3216355811256585, 'grad_clip': 0.22866142472377313, 'target_update_period': 9, 'batch_size': 463}. Best is trial 34 with value: 501.0.
+2021-07-17 14:10:21,960 ------------------------------------------------------------------------------
+2021-07-17 14:10:21,960 Final task score = 209.0
+2021-07-17 14:10:22,007 Trial 119 finished with value: 209.0 and parameters: {'hidden_dim': 200, 'epsilon_end': 0.010995765283270719, 'epsilon_decay': 0.22599994886149624, 'grad_clip': 0.2412809978709278, 'target_update_period': 12, 'batch_size': 396}. Best is trial 34 with value: 501.0.
+2021-07-17 14:11:05,616 ------------------------------------------------------------------------------
+2021-07-17 14:11:05,616 Final task score = 143.0
+2021-07-17 14:11:05,654 Trial 120 finished with value: 143.0 and parameters: {'hidden_dim': 179, 'epsilon_end': 0.007362012373948705, 'epsilon_decay': 0.39863634732771386, 'grad_clip': 0.25980852740094434, 'target_update_period': 6, 'batch_size': 375}. Best is trial 34 with value: 501.0.
+2021-07-17 14:11:46,710 ------------------------------------------------------------------------------
+2021-07-17 14:11:46,710 Final task score = 131.0
+2021-07-17 14:11:46,742 Trial 121 finished with value: 131.0 and parameters: {'hidden_dim': 168, 'epsilon_end': 0.02116037994122269, 'epsilon_decay': 0.28143224194286565, 'grad_clip': 0.23596997498889885, 'target_update_period': 10, 'batch_size': 427}. Best is trial 34 with value: 501.0.
+2021-07-17 14:12:23,685 ------------------------------------------------------------------------------
+2021-07-17 14:12:23,685 Final task score = 122.0
+2021-07-17 14:12:23,717 Trial 122 finished with value: 122.0 and parameters: {'hidden_dim': 174, 'epsilon_end': 0.013512551883694478, 'epsilon_decay': 0.2969722789550634, 'grad_clip': 0.24748432687145244, 'target_update_period': 8, 'batch_size': 408}. Best is trial 34 with value: 501.0.
+2021-07-17 14:13:41,534 ------------------------------------------------------------------------------
+2021-07-17 14:13:41,534 Final task score = 501.0
+2021-07-17 14:13:41,600 Trial 123 finished with value: 501.0 and parameters: {'hidden_dim': 188, 'epsilon_end': 0.009736854436858943, 'epsilon_decay': 0.31491261435836926, 'grad_clip': 0.16269195841742573, 'target_update_period': 10, 'batch_size': 363}. Best is trial 34 with value: 501.0.
+2021-07-17 14:45:01,619 ------------------------------------------------------------------------------
+2021-07-17 14:45:01,620 Final task score = 286.0
+2021-07-17 14:45:01,669 Trial 124 finished with value: 286.0 and parameters: {'hidden_dim': 189, 'epsilon_end': 0.009715026654148633, 'epsilon_decay': 0.35547864089729725, 'grad_clip': 0.1571199572259102, 'target_update_period': 7, 'batch_size': 365}. Best is trial 34 with value: 501.0.
+2021-07-17 14:46:09,152 ------------------------------------------------------------------------------
+2021-07-17 14:46:09,152 Final task score = 252.0
+2021-07-17 14:46:09,201 Trial 125 finished with value: 252.0 and parameters: {'hidden_dim': 189, 'epsilon_end': 0.008050765525507356, 'epsilon_decay': 0.3510521577578494, 'grad_clip': 0.15531593168821786, 'target_update_period': 7, 'batch_size': 434}. Best is trial 34 with value: 501.0.
+2021-07-17 14:46:29,213 ------------------------------------------------------------------------------
+2021-07-17 14:46:29,213 Final task score = 103.0
+2021-07-17 14:46:29,233 Trial 126 finished with value: 103.0 and parameters: {'hidden_dim': 195, 'epsilon_end': 0.006422549408311354, 'epsilon_decay': 0.3136651677150623, 'grad_clip': 0.15845685498872608, 'target_update_period': 5, 'batch_size': 366}. Best is trial 34 with value: 501.0.
+2021-07-17 14:47:10,195 ------------------------------------------------------------------------------
+2021-07-17 14:47:10,195 Final task score = 164.0
+2021-07-17 14:47:10,231 Trial 127 finished with value: 164.0 and parameters: {'hidden_dim': 183, 'epsilon_end': 0.011523892509139913, 'epsilon_decay': 0.47762210245946995, 'grad_clip': 0.1431545701016109, 'target_update_period': 8, 'batch_size': 390}. Best is trial 34 with value: 501.0.
+2021-07-17 15:14:02,958 ------------------------------------------------------------------------------
+2021-07-17 15:14:02,958 Final task score = 45.0
+2021-07-17 15:14:02,967 Trial 128 finished with value: 45.0 and parameters: {'hidden_dim': 198, 'epsilon_end': 0.010102520597274723, 'epsilon_decay': 0.443939405584587, 'grad_clip': 0.14389603186629502, 'target_update_period': 6, 'batch_size': 182}. Best is trial 34 with value: 501.0.
+2021-07-17 15:14:09,224 ------------------------------------------------------------------------------
+2021-07-17 15:14:09,224 Final task score = 81.0
+2021-07-17 15:14:09,229 Trial 129 finished with value: 81.0 and parameters: {'hidden_dim': 187, 'epsilon_end': 0.009848994523206762, 'epsilon_decay': 0.3651757255155813, 'grad_clip': 0.16604087439601048, 'target_update_period': 43, 'batch_size': 416}. Best is trial 34 with value: 501.0.
+2021-07-17 15:15:02,505 ------------------------------------------------------------------------------
+2021-07-17 15:15:02,506 Final task score = 241.0
+2021-07-17 15:15:02,554 Trial 130 finished with value: 241.0 and parameters: {'hidden_dim': 192, 'epsilon_end': 0.012804427525166402, 'epsilon_decay': 0.195410579264645, 'grad_clip': 0.15289184514873638, 'target_update_period': 9, 'batch_size': 383}. Best is trial 34 with value: 501.0.
+2021-07-17 15:15:30,015 ------------------------------------------------------------------------------
+2021-07-17 15:15:30,016 Final task score = 131.0
+2021-07-17 15:15:30,041 Trial 131 finished with value: 131.0 and parameters: {'hidden_dim': 181, 'epsilon_end': 0.008392343119480877, 'epsilon_decay': 0.33866983898969377, 'grad_clip': 0.17424819974622308, 'target_update_period': 11, 'batch_size': 375}. Best is trial 34 with value: 501.0.
+2021-07-17 15:16:04,395 ------------------------------------------------------------------------------
+2021-07-17 15:16:04,395 Final task score = 153.0
+2021-07-17 15:16:04,428 Trial 132 finished with value: 153.0 and parameters: {'hidden_dim': 175, 'epsilon_end': 0.016371435448871156, 'epsilon_decay': 0.26300758940464963, 'grad_clip': 0.1714936111999811, 'target_update_period': 10, 'batch_size': 351}. Best is trial 34 with value: 501.0.
+2021-07-17 15:16:43,787 ------------------------------------------------------------------------------
+2021-07-17 15:16:43,787 Final task score = 198.0
+2021-07-17 15:16:43,822 Trial 133 finished with value: 198.0 and parameters: {'hidden_dim': 186, 'epsilon_end': 0.025069253485921972, 'epsilon_decay': 0.37958549351319504, 'grad_clip': 0.16798086356497546, 'target_update_period': 7, 'batch_size': 399}. Best is trial 34 with value: 501.0.
+2021-07-17 15:17:15,228 ------------------------------------------------------------------------------
+2021-07-17 15:17:15,228 Final task score = 292.0
+2021-07-17 15:17:15,258 Trial 134 finished with value: 292.0 and parameters: {'hidden_dim': 191, 'epsilon_end': 0.014688576316704168, 'epsilon_decay': 0.3149842054300237, 'grad_clip': 0.15070990627695643, 'target_update_period': 13, 'batch_size': 364}. Best is trial 34 with value: 501.0.
+2021-07-17 15:18:02,193 ------------------------------------------------------------------------------
+2021-07-17 15:18:02,193 Final task score = 208.0
+2021-07-17 15:18:02,233 Trial 135 finished with value: 208.0 and parameters: {'hidden_dim': 192, 'epsilon_end': 0.014411105370771771, 'epsilon_decay': 0.3207077554816794, 'grad_clip': 0.12450949575601675, 'target_update_period': 14, 'batch_size': 441}. Best is trial 34 with value: 501.0.
+2021-07-17 15:18:53,103 ------------------------------------------------------------------------------
+2021-07-17 15:18:53,103 Final task score = 181.0
+2021-07-17 15:18:53,150 Trial 136 finished with value: 181.0 and parameters: {'hidden_dim': 198, 'epsilon_end': 0.015384229794299768, 'epsilon_decay': 0.28491651537999213, 'grad_clip': 0.137145140052869, 'target_update_period': 9, 'batch_size': 361}. Best is trial 34 with value: 501.0.
+2021-07-17 15:19:15,648 ------------------------------------------------------------------------------
+2021-07-17 15:19:15,648 Final task score = 135.0
+2021-07-17 15:19:15,670 Trial 137 finished with value: 135.0 and parameters: {'hidden_dim': 189, 'epsilon_end': 0.00014758142229338508, 'epsilon_decay': 0.40486998753696435, 'grad_clip': 0.16056784498597998, 'target_update_period': 17, 'batch_size': 343}. Best is trial 34 with value: 501.0.
+2021-07-17 15:19:20,658 ------------------------------------------------------------------------------
+2021-07-17 15:19:20,658 Final task score = 23.0
+2021-07-17 15:19:20,663 Trial 138 finished with value: 23.0 and parameters: {'hidden_dim': 178, 'epsilon_end': 0.013715165205941071, 'epsilon_decay': 0.3352660491396851, 'grad_clip': 0.18105515482277187, 'target_update_period': 6, 'batch_size': 409}. Best is trial 34 with value: 501.0.
+2021-07-17 15:20:31,634 ------------------------------------------------------------------------------
+2021-07-17 15:20:31,634 Final task score = 211.0
+2021-07-17 15:20:31,693 Trial 139 finished with value: 211.0 and parameters: {'hidden_dim': 196, 'epsilon_end': 0.01772292805276716, 'epsilon_decay': 0.22796122255425733, 'grad_clip': 0.15101301297861566, 'target_update_period': 8, 'batch_size': 426}. Best is trial 34 with value: 501.0.
+2021-07-17 15:20:46,523 ------------------------------------------------------------------------------
+2021-07-17 15:20:46,524 Final task score = 101.0
+2021-07-17 15:20:46,538 Trial 140 finished with value: 101.0 and parameters: {'hidden_dim': 184, 'epsilon_end': 0.011291806485273717, 'epsilon_decay': 0.3537028579274724, 'grad_clip': 0.2177119532141461, 'target_update_period': 13, 'batch_size': 391}. Best is trial 34 with value: 501.0.
+2021-07-17 15:22:04,203 ------------------------------------------------------------------------------
+2021-07-17 15:22:04,203 Final task score = 293.0
+2021-07-17 15:22:04,273 Trial 141 finished with value: 293.0 and parameters: {'hidden_dim': 193, 'epsilon_end': 0.012709804237448297, 'epsilon_decay': 0.3049375807129989, 'grad_clip': 0.14945981300085545, 'target_update_period': 11, 'batch_size': 373}. Best is trial 34 with value: 501.0.
+2021-07-17 15:22:48,901 ------------------------------------------------------------------------------
+2021-07-17 15:22:48,901 Final task score = 199.0
+2021-07-17 15:22:48,942 Trial 142 finished with value: 199.0 and parameters: {'hidden_dim': 200, 'epsilon_end': 0.012121568803723254, 'epsilon_decay': 0.3048333619325775, 'grad_clip': 0.1620492139090155, 'target_update_period': 11, 'batch_size': 379}. Best is trial 34 with value: 501.0.
+2021-07-17 15:23:33,154 ------------------------------------------------------------------------------
+2021-07-17 15:23:33,154 Final task score = 212.0
+2021-07-17 15:23:33,195 Trial 143 finished with value: 212.0 and parameters: {'hidden_dim': 193, 'epsilon_end': 0.010121553828763646, 'epsilon_decay': 0.42393416654254806, 'grad_clip': 0.1340510305614481, 'target_update_period': 12, 'batch_size': 365}. Best is trial 34 with value: 501.0.
+2021-07-17 15:24:04,067 ------------------------------------------------------------------------------
+2021-07-17 15:24:04,067 Final task score = 150.0
+2021-07-17 15:24:04,095 Trial 144 finished with value: 150.0 and parameters: {'hidden_dim': 189, 'epsilon_end': 0.014834629047097248, 'epsilon_decay': 0.2642346335441929, 'grad_clip': 0.15073391758517007, 'target_update_period': 10, 'batch_size': 396}. Best is trial 34 with value: 501.0.
+2021-07-17 15:25:00,209 ------------------------------------------------------------------------------
+2021-07-17 15:25:00,209 Final task score = 141.0
+2021-07-17 15:25:00,257 Trial 145 finished with value: 141.0 and parameters: {'hidden_dim': 195, 'epsilon_end': 0.013012254782843517, 'epsilon_decay': 0.29332794604617746, 'grad_clip': 0.13405669411735247, 'target_update_period': 8, 'batch_size': 332}. Best is trial 34 with value: 501.0.
+2021-07-17 15:26:27,313 ------------------------------------------------------------------------------
+2021-07-17 15:26:27,313 Final task score = 501.0
+2021-07-17 15:26:27,385 Trial 146 finished with value: 501.0 and parameters: {'hidden_dim': 183, 'epsilon_end': 0.0038492453118772604, 'epsilon_decay': 0.37442980176515694, 'grad_clip': 0.1634670633602611, 'target_update_period': 7, 'batch_size': 404}. Best is trial 34 with value: 501.0.
+2021-07-17 15:27:41,652 ------------------------------------------------------------------------------
+2021-07-17 15:27:41,652 Final task score = 206.0
+2021-07-17 15:27:41,713 Trial 147 finished with value: 206.0 and parameters: {'hidden_dim': 172, 'epsilon_end': 0.0018283371467554055, 'epsilon_decay': 0.3838470387548144, 'grad_clip': 0.14631431907295614, 'target_update_period': 7, 'batch_size': 406}. Best is trial 34 with value: 501.0.
+2021-07-17 15:28:12,315 ------------------------------------------------------------------------------
+2021-07-17 15:28:12,315 Final task score = 112.0
+2021-07-17 15:28:12,338 Trial 148 finished with value: 112.0 and parameters: {'hidden_dim': 181, 'epsilon_end': 0.004516687523896005, 'epsilon_decay': 0.3710378253410364, 'grad_clip': 0.16714267504707175, 'target_update_period': 5, 'batch_size': 416}. Best is trial 34 with value: 501.0.
+2021-07-17 15:29:00,045 ------------------------------------------------------------------------------
+2021-07-17 15:29:00,045 Final task score = 170.0
+2021-07-17 15:29:00,087 Trial 149 finished with value: 170.0 and parameters: {'hidden_dim': 176, 'epsilon_end': 0.003920550907986039, 'epsilon_decay': 0.3358240851058001, 'grad_clip': 0.16311997994353272, 'target_update_period': 10, 'batch_size': 371}. Best is trial 34 with value: 501.0.
+2021-07-17 15:29:56,625 ------------------------------------------------------------------------------
+2021-07-17 15:29:56,625 Final task score = 167.0
+2021-07-17 15:29:56,666 Trial 150 finished with value: 167.0 and parameters: {'hidden_dim': 185, 'epsilon_end': 0.011733355861789389, 'epsilon_decay': 0.3171164065926127, 'grad_clip': 0.15710275249613587, 'target_update_period': 7, 'batch_size': 450}. Best is trial 34 with value: 501.0.
+2021-07-17 15:30:44,606 ------------------------------------------------------------------------------
+2021-07-17 15:30:44,606 Final task score = 252.0
+2021-07-17 15:30:44,646 Trial 151 finished with value: 252.0 and parameters: {'hidden_dim': 189, 'epsilon_end': 0.008827281437001185, 'epsilon_decay': 0.359986304461354, 'grad_clip': 0.23263345589922632, 'target_update_period': 9, 'batch_size': 385}. Best is trial 34 with value: 501.0.
+2021-07-17 15:31:37,253 ------------------------------------------------------------------------------
+2021-07-17 15:31:37,254 Final task score = 217.0
+2021-07-17 15:31:37,298 Trial 152 finished with value: 217.0 and parameters: {'hidden_dim': 200, 'epsilon_end': 0.030544009245358848, 'epsilon_decay': 0.25059870916918087, 'grad_clip': 0.17275618535464982, 'target_update_period': 8, 'batch_size': 357}. Best is trial 34 with value: 501.0.
+2021-07-17 15:32:29,244 ------------------------------------------------------------------------------
+2021-07-17 15:32:29,244 Final task score = 193.0
+2021-07-17 15:32:29,284 Trial 153 finished with value: 193.0 and parameters: {'hidden_dim': 193, 'epsilon_end': 0.0057460113155266244, 'epsilon_decay': 0.2751113576632024, 'grad_clip': 0.14055853226414958, 'target_update_period': 9, 'batch_size': 436}. Best is trial 34 with value: 501.0.
+2021-07-17 15:33:01,835 ------------------------------------------------------------------------------
+2021-07-17 15:33:01,835 Final task score = 165.0
+2021-07-17 15:33:01,862 Trial 154 finished with value: 165.0 and parameters: {'hidden_dim': 181, 'epsilon_end': 0.020373003767603794, 'epsilon_decay': 0.39475693418137586, 'grad_clip': 0.14801576454999296, 'target_update_period': 7, 'batch_size': 401}. Best is trial 34 with value: 501.0.
+2021-07-17 15:33:27,629 ------------------------------------------------------------------------------
+2021-07-17 15:33:27,629 Final task score = 122.0
+2021-07-17 15:33:27,650 Trial 155 finished with value: 122.0 and parameters: {'hidden_dim': 163, 'epsilon_end': 0.010695786911093264, 'epsilon_decay': 0.32380691264706574, 'grad_clip': 0.22342404773491514, 'target_update_period': 6, 'batch_size': 421}. Best is trial 34 with value: 501.0.
+2021-07-17 15:34:55,244 ------------------------------------------------------------------------------
+2021-07-17 15:34:55,244 Final task score = 328.0
+2021-07-17 15:34:55,314 Trial 156 finished with value: 328.0 and parameters: {'hidden_dim': 186, 'epsilon_end': 0.0018068016794678676, 'epsilon_decay': 0.3496432969189717, 'grad_clip': 0.24318729659426597, 'target_update_period': 11, 'batch_size': 390}. Best is trial 34 with value: 501.0.
+2021-07-17 15:35:38,940 ------------------------------------------------------------------------------
+2021-07-17 15:35:38,940 Final task score = 174.0
+2021-07-17 15:35:38,976 Trial 157 finished with value: 174.0 and parameters: {'hidden_dim': 186, 'epsilon_end': 0.0018826908887513212, 'epsilon_decay': 0.3459321593577473, 'grad_clip': 0.24033894808436362, 'target_update_period': 11, 'batch_size': 377}. Best is trial 34 with value: 501.0.
+2021-07-17 15:36:21,245 ------------------------------------------------------------------------------
+2021-07-17 15:36:21,245 Final task score = 232.0
+2021-07-17 15:36:21,280 Trial 158 finished with value: 232.0 and parameters: {'hidden_dim': 178, 'epsilon_end': 0.006678047295393072, 'epsilon_decay': 0.36413530317834214, 'grad_clip': 0.25058327034029576, 'target_update_period': 12, 'batch_size': 408}. Best is trial 34 with value: 501.0.
+2021-07-17 15:36:38,108 ------------------------------------------------------------------------------
+2021-07-17 15:36:38,108 Final task score = 93.0
+2021-07-17 15:36:38,124 Trial 159 finished with value: 93.0 and parameters: {'hidden_dim': 169, 'epsilon_end': 0.01583158081454677, 'epsilon_decay': 0.42107346640547183, 'grad_clip': 0.23229132443498, 'target_update_period': 10, 'batch_size': 390}. Best is trial 34 with value: 501.0.
+2021-07-17 15:37:07,759 ------------------------------------------------------------------------------
+2021-07-17 15:37:07,759 Final task score = 102.0
+2021-07-17 15:37:07,782 Trial 160 finished with value: 102.0 and parameters: {'hidden_dim': 183, 'epsilon_end': 0.0005596558343754733, 'epsilon_decay': 0.39096335871322974, 'grad_clip': 0.24293599029672944, 'target_update_period': 5, 'batch_size': 424}. Best is trial 34 with value: 501.0.
+2021-07-17 15:37:42,423 ------------------------------------------------------------------------------
+2021-07-17 15:37:42,424 Final task score = 211.0
+2021-07-17 15:37:42,480 Trial 161 finished with value: 211.0 and parameters: {'hidden_dim': 191, 'epsilon_end': 0.0031954510690752657, 'epsilon_decay': 0.30845136509452364, 'grad_clip': 0.2367848787941676, 'target_update_period': 13, 'batch_size': 96}. Best is trial 34 with value: 501.0.
+2021-07-17 15:38:08,849 ------------------------------------------------------------------------------
+2021-07-17 15:38:08,849 Final task score = 105.0
+2021-07-17 15:38:08,872 Trial 162 finished with value: 105.0 and parameters: {'hidden_dim': 197, 'epsilon_end': 0.0016582042884746, 'epsilon_decay': 0.3277598878131293, 'grad_clip': 0.2273503870710103, 'target_update_period': 9, 'batch_size': 396}. Best is trial 34 with value: 501.0.
+2021-07-17 15:38:42,000 ------------------------------------------------------------------------------
+2021-07-17 15:38:42,000 Final task score = 137.0
+2021-07-17 15:38:42,028 Trial 163 finished with value: 137.0 and parameters: {'hidden_dim': 187, 'epsilon_end': 0.012577690353716243, 'epsilon_decay': 0.2889743097069832, 'grad_clip': 0.1861079586289676, 'target_update_period': 15, 'batch_size': 367}. Best is trial 34 with value: 501.0.
+2021-07-17 15:39:14,222 ------------------------------------------------------------------------------
+2021-07-17 15:39:14,222 Final task score = 136.0
+2021-07-17 15:39:14,247 Trial 164 finished with value: 136.0 and parameters: {'hidden_dim': 200, 'epsilon_end': 0.009467512444522904, 'epsilon_decay': 0.3517106938714737, 'grad_clip': 0.1558685582374269, 'target_update_period': 11, 'batch_size': 412}. Best is trial 34 with value: 501.0.
+2021-07-17 15:40:09,919 ------------------------------------------------------------------------------
+2021-07-17 15:40:09,920 Final task score = 224.0
+2021-07-17 15:40:09,965 Trial 165 finished with value: 224.0 and parameters: {'hidden_dim': 194, 'epsilon_end': 0.013723687331802799, 'epsilon_decay': 0.3770968787398839, 'grad_clip': 0.24470651751654965, 'target_update_period': 8, 'batch_size': 386}. Best is trial 34 with value: 501.0.
+2021-07-17 15:40:51,240 ------------------------------------------------------------------------------
+2021-07-17 15:40:51,240 Final task score = 207.0
+2021-07-17 15:40:51,272 Trial 166 finished with value: 207.0 and parameters: {'hidden_dim': 190, 'epsilon_end': 0.011425667540904468, 'epsilon_decay': 0.30830851379691004, 'grad_clip': 0.22219413294320517, 'target_update_period': 6, 'batch_size': 443}. Best is trial 34 with value: 501.0.
+2021-07-17 15:41:53,214 ------------------------------------------------------------------------------
+2021-07-17 15:41:53,214 Final task score = 213.0
+2021-07-17 15:41:53,267 Trial 167 finished with value: 213.0 and parameters: {'hidden_dim': 184, 'epsilon_end': 0.008206058656244186, 'epsilon_decay': 0.2757862737793765, 'grad_clip': 0.23765873524404957, 'target_update_period': 10, 'batch_size': 349}. Best is trial 34 with value: 501.0.
+2021-07-17 15:42:28,555 ------------------------------------------------------------------------------
+2021-07-17 15:42:28,556 Final task score = 126.0
+2021-07-17 15:42:28,585 Trial 168 finished with value: 126.0 and parameters: {'hidden_dim': 176, 'epsilon_end': 0.009868702236026091, 'epsilon_decay': 0.34308955337021696, 'grad_clip': 0.2540122123996832, 'target_update_period': 7, 'batch_size': 402}. Best is trial 34 with value: 501.0.
+2021-07-17 15:43:30,777 ------------------------------------------------------------------------------
+2021-07-17 15:43:30,777 Final task score = 209.0
+2021-07-17 15:43:30,827 Trial 169 finished with value: 209.0 and parameters: {'hidden_dim': 196, 'epsilon_end': 0.017753479351512013, 'epsilon_decay': 0.24340856198838756, 'grad_clip': 0.2304506176874199, 'target_update_period': 9, 'batch_size': 432}. Best is trial 34 with value: 501.0.
+2021-07-17 15:44:25,338 ------------------------------------------------------------------------------
+2021-07-17 15:44:25,338 Final task score = 226.0
+2021-07-17 15:44:25,397 Trial 170 finished with value: 226.0 and parameters: {'hidden_dim': 173, 'epsilon_end': 0.014248604908302355, 'epsilon_decay': 0.2956522776848882, 'grad_clip': 0.16645445535439596, 'target_update_period': 8, 'batch_size': 228}. Best is trial 34 with value: 501.0.
+2021-07-17 15:44:33,497 ------------------------------------------------------------------------------
+2021-07-17 15:44:33,497 Final task score = 70.0
+2021-07-17 15:44:33,505 Trial 171 finished with value: 70.0 and parameters: {'hidden_dim': 179, 'epsilon_end': 0.04850581538068586, 'epsilon_decay': 0.6010042744405655, 'grad_clip': 0.29597227359704353, 'target_update_period': 12, 'batch_size': 377}. Best is trial 34 with value: 501.0.
+2021-07-17 15:45:17,944 ------------------------------------------------------------------------------
+2021-07-17 15:45:17,945 Final task score = 219.0
+2021-07-17 15:45:17,981 Trial 172 finished with value: 219.0 and parameters: {'hidden_dim': 188, 'epsilon_end': 0.046148161848531724, 'epsilon_decay': 0.32732116395254335, 'grad_clip': 0.28510850933500487, 'target_update_period': 19, 'batch_size': 356}. Best is trial 34 with value: 501.0.
+2021-07-17 15:45:53,092 ------------------------------------------------------------------------------
+2021-07-17 15:45:53,092 Final task score = 123.0
+2021-07-17 15:45:53,122 Trial 173 finished with value: 123.0 and parameters: {'hidden_dim': 182, 'epsilon_end': 0.04412458022717676, 'epsilon_decay': 0.3531061697925745, 'grad_clip': 0.149564768793509, 'target_update_period': 14, 'batch_size': 367}. Best is trial 34 with value: 501.0.
+2021-07-17 15:46:40,862 ------------------------------------------------------------------------------
+2021-07-17 15:46:40,863 Final task score = 169.0
+2021-07-17 15:46:40,904 Trial 174 finished with value: 169.0 and parameters: {'hidden_dim': 192, 'epsilon_end': 0.04768536406186626, 'epsilon_decay': 0.4491533555335395, 'grad_clip': 0.2915725367618275, 'target_update_period': 11, 'batch_size': 385}. Best is trial 34 with value: 501.0.
+2021-07-17 15:47:22,329 ------------------------------------------------------------------------------
+2021-07-17 15:47:22,329 Final task score = 149.0
+2021-07-17 15:47:22,361 Trial 175 finished with value: 149.0 and parameters: {'hidden_dim': 187, 'epsilon_end': 0.028571810061953716, 'epsilon_decay': 0.3733290287746802, 'grad_clip': 0.2454061791501245, 'target_update_period': 10, 'batch_size': 395}. Best is trial 34 with value: 501.0.
+2021-07-17 15:48:16,290 ------------------------------------------------------------------------------
+2021-07-17 15:48:16,290 Final task score = 194.0
+2021-07-17 15:48:16,334 Trial 176 finished with value: 194.0 and parameters: {'hidden_dim': 171, 'epsilon_end': 0.045424575519706065, 'epsilon_decay': 0.4085963056597094, 'grad_clip': 0.2996832806630392, 'target_update_period': 6, 'batch_size': 414}. Best is trial 34 with value: 501.0.
+2021-07-17 15:49:45,109 ------------------------------------------------------------------------------
+2021-07-17 15:49:45,109 Final task score = 501.0
+2021-07-17 15:49:45,182 Trial 177 finished with value: 501.0 and parameters: {'hidden_dim': 179, 'epsilon_end': 0.025536463218341222, 'epsilon_decay': 0.5446428550547299, 'grad_clip': 0.1609562563195795, 'target_update_period': 9, 'batch_size': 380}. Best is trial 34 with value: 501.0.
+2021-07-17 15:50:56,187 ------------------------------------------------------------------------------
+2021-07-17 15:50:56,188 Final task score = 256.0
+2021-07-17 15:50:56,247 Trial 178 finished with value: 256.0 and parameters: {'hidden_dim': 200, 'epsilon_end': 0.023298510448082742, 'epsilon_decay': 0.5705401977029843, 'grad_clip': 0.13971899485725783, 'target_update_period': 8, 'batch_size': 376}. Best is trial 34 with value: 501.0.
+2021-07-17 15:51:48,370 ------------------------------------------------------------------------------
+2021-07-17 15:51:48,371 Final task score = 121.0
+2021-07-17 15:51:48,410 Trial 179 finished with value: 121.0 and parameters: {'hidden_dim': 178, 'epsilon_end': 0.012287868457663477, 'epsilon_decay': 0.5502779080889647, 'grad_clip': 0.17717750092645093, 'target_update_period': 9, 'batch_size': 457}. Best is trial 34 with value: 501.0.
+2021-07-17 15:52:46,915 ------------------------------------------------------------------------------
+2021-07-17 15:52:46,916 Final task score = 218.0
+2021-07-17 15:52:46,963 Trial 180 finished with value: 218.0 and parameters: {'hidden_dim': 192, 'epsilon_end': 0.010908287793399522, 'epsilon_decay': 0.5039090486194172, 'grad_clip': 0.16047200950477924, 'target_update_period': 7, 'batch_size': 407}. Best is trial 34 with value: 501.0.
+2021-07-17 15:53:00,497 ------------------------------------------------------------------------------
+2021-07-17 15:53:00,497 Final task score = 140.0
+2021-07-17 15:53:00,509 Trial 181 finished with value: 140.0 and parameters: {'hidden_dim': 184, 'epsilon_end': 0.0129503511632764, 'epsilon_decay': 0.4735142024066679, 'grad_clip': 0.15398177754871067, 'target_update_period': 10, 'batch_size': 364}. Best is trial 34 with value: 501.0.
+2021-07-17 15:53:42,662 ------------------------------------------------------------------------------
+2021-07-17 15:53:42,662 Final task score = 145.0
+2021-07-17 15:53:42,697 Trial 182 finished with value: 145.0 and parameters: {'hidden_dim': 167, 'epsilon_end': 0.043277289112452495, 'epsilon_decay': 0.5475823759498696, 'grad_clip': 0.16999193764027773, 'target_update_period': 11, 'batch_size': 387}. Best is trial 34 with value: 501.0.
+2021-07-17 15:54:43,468 ------------------------------------------------------------------------------
+2021-07-17 15:54:43,468 Final task score = 201.0
+2021-07-17 15:54:43,518 Trial 183 finished with value: 201.0 and parameters: {'hidden_dim': 179, 'epsilon_end': 0.025446931325479594, 'epsilon_decay': 0.31517565401839387, 'grad_clip': 0.16477749556533045, 'target_update_period': 13, 'batch_size': 399}. Best is trial 34 with value: 501.0.
+2021-07-17 15:56:09,448 ------------------------------------------------------------------------------
+2021-07-17 15:56:09,448 Final task score = 501.0
+2021-07-17 15:56:09,523 Trial 184 finished with value: 501.0 and parameters: {'hidden_dim': 175, 'epsilon_end': 0.04655015966358401, 'epsilon_decay': 0.5327284896680747, 'grad_clip': 0.15890831188262358, 'target_update_period': 8, 'batch_size': 344}. Best is trial 34 with value: 501.0.
+2021-07-17 15:56:54,777 ------------------------------------------------------------------------------
+2021-07-17 15:56:54,777 Final task score = 169.0
+2021-07-17 15:56:54,819 Trial 185 finished with value: 169.0 and parameters: {'hidden_dim': 174, 'epsilon_end': 0.0472089354748565, 'epsilon_decay': 0.5327106448793528, 'grad_clip': 0.16064731318166917, 'target_update_period': 8, 'batch_size': 348}. Best is trial 34 with value: 501.0.
+2021-07-17 15:57:35,983 ------------------------------------------------------------------------------
+2021-07-17 15:57:36,001 Final task score = 130.0
+2021-07-17 15:57:36,035 Trial 186 finished with value: 130.0 and parameters: {'hidden_dim': 196, 'epsilon_end': 0.014804681333063492, 'epsilon_decay': 0.5863064077329088, 'grad_clip': 0.1519216160942997, 'target_update_period': 7, 'batch_size': 422}. Best is trial 34 with value: 501.0.
+2021-07-17 15:57:39,306 ------------------------------------------------------------------------------
+2021-07-17 15:57:39,306 Final task score = 10.0
+2021-07-17 15:57:39,311 Trial 187 finished with value: 10.0 and parameters: {'hidden_dim': 47, 'epsilon_end': 0.0024567215218790988, 'epsilon_decay': 0.3371618281265049, 'grad_clip': 0.14625572211590934, 'target_update_period': 9, 'batch_size': 265}. Best is trial 34 with value: 501.0.
+2021-07-17 15:58:26,959 ------------------------------------------------------------------------------
+2021-07-17 15:58:26,960 Final task score = 150.0
+2021-07-17 15:58:26,999 Trial 188 finished with value: 150.0 and parameters: {'hidden_dim': 186, 'epsilon_end': 0.004952149775193713, 'epsilon_decay': 0.5167742827165669, 'grad_clip': 0.16068780602141133, 'target_update_period': 6, 'batch_size': 374}. Best is trial 34 with value: 501.0.
+2021-07-17 15:59:14,454 ------------------------------------------------------------------------------
+2021-07-17 15:59:14,454 Final task score = 210.0
+2021-07-17 15:59:14,494 Trial 189 finished with value: 210.0 and parameters: {'hidden_dim': 181, 'epsilon_end': 0.032438783645761096, 'epsilon_decay': 0.26249909840788715, 'grad_clip': 0.1572027577726869, 'target_update_period': 8, 'batch_size': 340}. Best is trial 34 with value: 501.0.
+2021-07-17 15:59:53,525 ------------------------------------------------------------------------------
+2021-07-17 15:59:53,526 Final task score = 121.0
+2021-07-17 15:59:53,559 Trial 190 finished with value: 121.0 and parameters: {'hidden_dim': 190, 'epsilon_end': 0.04609268569554132, 'epsilon_decay': 0.36318727776701615, 'grad_clip': 0.24011371278144356, 'target_update_period': 5, 'batch_size': 359}. Best is trial 34 with value: 501.0.
+2021-07-17 16:00:46,915 ------------------------------------------------------------------------------
+2021-07-17 16:00:46,915 Final task score = 185.0
+2021-07-17 16:00:46,958 Trial 191 finished with value: 185.0 and parameters: {'hidden_dim': 175, 'epsilon_end': 0.04557537130960354, 'epsilon_decay': 0.5570659456957345, 'grad_clip': 0.23481919879993524, 'target_update_period': 12, 'batch_size': 383}. Best is trial 34 with value: 501.0.
+2021-07-17 16:01:43,826 ------------------------------------------------------------------------------
+2021-07-17 16:01:43,826 Final task score = 411.0
+2021-07-17 16:01:43,873 Trial 192 finished with value: 411.0 and parameters: {'hidden_dim': 171, 'epsilon_end': 0.04705526033239439, 'epsilon_decay': 0.38249308672376225, 'grad_clip': 0.278018185924054, 'target_update_period': 9, 'batch_size': 369}. Best is trial 34 with value: 501.0.
+2021-07-17 16:02:35,669 ------------------------------------------------------------------------------
+2021-07-17 16:02:35,669 Final task score = 160.0
+2021-07-17 16:02:35,714 Trial 193 finished with value: 160.0 and parameters: {'hidden_dim': 164, 'epsilon_end': 0.003965649162106173, 'epsilon_decay': 0.3810300670780569, 'grad_clip': 0.27952237552241327, 'target_update_period': 9, 'batch_size': 392}. Best is trial 34 with value: 501.0.
+2021-07-17 16:03:41,924 ------------------------------------------------------------------------------
+2021-07-17 16:03:41,924 Final task score = 173.0
+2021-07-17 16:03:41,980 Trial 194 finished with value: 173.0 and parameters: {'hidden_dim': 169, 'epsilon_end': 0.046835687063299734, 'epsilon_decay': 0.5333276487800119, 'grad_clip': 0.2601461262443331, 'target_update_period': 8, 'batch_size': 373}. Best is trial 34 with value: 501.0.
+2021-07-17 16:04:18,775 ------------------------------------------------------------------------------
+2021-07-17 16:04:18,775 Final task score = 123.0
+2021-07-17 16:04:18,808 Trial 195 finished with value: 123.0 and parameters: {'hidden_dim': 172, 'epsilon_end': 0.044772339737256, 'epsilon_decay': 0.39721411108904436, 'grad_clip': 0.22750463639248275, 'target_update_period': 10, 'batch_size': 363}. Best is trial 34 with value: 501.0.
+2021-07-17 16:05:00,530 ------------------------------------------------------------------------------
+2021-07-17 16:05:00,531 Final task score = 123.0
+2021-07-17 16:05:00,563 Trial 196 finished with value: 123.0 and parameters: {'hidden_dim': 182, 'epsilon_end': 0.0491589270276965, 'epsilon_decay': 0.301756712913089, 'grad_clip': 0.15437630462914242, 'target_update_period': 7, 'batch_size': 403}. Best is trial 34 with value: 501.0.
+2021-07-17 16:06:13,869 ------------------------------------------------------------------------------
+2021-07-17 16:06:13,869 Final task score = 235.0
+2021-07-17 16:06:13,931 Trial 197 finished with value: 235.0 and parameters: {'hidden_dim': 177, 'epsilon_end': 0.026300717334883872, 'epsilon_decay': 0.34363340378378393, 'grad_clip': 0.28738191947113984, 'target_update_period': 9, 'batch_size': 416}. Best is trial 34 with value: 501.0.
+2021-07-17 16:06:52,398 ------------------------------------------------------------------------------
+2021-07-17 16:06:52,399 Final task score = 145.0
+2021-07-17 16:06:52,429 Trial 198 finished with value: 145.0 and parameters: {'hidden_dim': 193, 'epsilon_end': 0.010477540095159691, 'epsilon_decay': 0.3656621367156629, 'grad_clip': 0.27798005527214664, 'target_update_period': 7, 'batch_size': 382}. Best is trial 34 with value: 501.0.
+2021-07-17 16:07:03,104 ------------------------------------------------------------------------------
+2021-07-17 16:07:03,104 Final task score = 62.0
+2021-07-17 16:07:03,113 Trial 199 finished with value: 62.0 and parameters: {'hidden_dim': 186, 'epsilon_end': 0.0074315307489134196, 'epsilon_decay': 0.4172523751664968, 'grad_clip': 0.23173708893319744, 'target_update_period': 11, 'batch_size': 427}. Best is trial 34 with value: 501.0.
+2021-07-17 16:07:03,606 Study statistics: 
+2021-07-17 16:07:03,668 Number of finished trials: 200
+2021-07-17 16:07:03,669 Number of pruned trials: 0
+2021-07-17 16:07:03,669 Number of complete trials: 200
+2021-07-17 16:07:03,669 Best trial: 
+2021-07-17 16:07:03,669 Score: 501.0
+2021-07-17 16:07:03,669 Params: 
+2021-07-17 16:07:03,669     hidden_dim: 154
+2021-07-17 16:07:03,669     epsilon_end: 0.04333746376187501
+2021-07-17 16:07:03,669     epsilon_decay: 0.2583378644061504
+2021-07-17 16:07:03,670     grad_clip: 0.2445614718796103
+2021-07-17 16:07:03,670     target_update_period: 7
+2021-07-17 16:07:03,670     batch_size: 407

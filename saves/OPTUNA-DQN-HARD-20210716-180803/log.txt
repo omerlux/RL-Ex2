@@ -1,0 +1,703 @@
+2021-07-16 18:08:03,722 Experiment dir : saves/DQN-OPTUNA-HARD-20210716-180803
+2021-07-16 18:08:03,722 Args: Namespace(gpu='0', update='hard', save='DQN-OPTUNA-HARD', max_episodes=200, trials=200)
+2021-07-16 18:08:03,728 A new study created in memory with name: DQN
+2021-07-16 18:08:27,561 ------------------------------------------------------------------------------
+2021-07-16 18:08:27,561 Final task score = 146.0
+2021-07-16 18:08:27,589 Trial 0 finished with value: 146.0 and parameters: {'hidden_dim': 129, 'batch_size': 202, 'gamma': 0.4864054692405074, 'epsilon_end': 0.04655801426246507, 'epsilon_decay': 0.8174300622036343, 'target_update_period': 18, 'grad_clip': 0.11583042349585422}. Best is trial 0 with value: 146.0.
+2021-07-16 18:08:51,755 ------------------------------------------------------------------------------
+2021-07-16 18:08:51,755 Final task score = 109.0
+2021-07-16 18:08:51,783 Trial 1 finished with value: 109.0 and parameters: {'hidden_dim': 110, 'batch_size': 275, 'gamma': 0.5420425371878527, 'epsilon_end': 0.008012869990197291, 'epsilon_decay': 0.5319569926255064, 'target_update_period': 28, 'grad_clip': 0.18401335869112392}. Best is trial 0 with value: 146.0.
+2021-07-16 18:08:58,389 ------------------------------------------------------------------------------
+2021-07-16 18:08:58,389 Final task score = 26.0
+2021-07-16 18:08:58,398 Trial 2 finished with value: 26.0 and parameters: {'hidden_dim': 110, 'batch_size': 275, 'gamma': 0.5287157380677993, 'epsilon_end': 0.04280320823137782, 'epsilon_decay': 0.538715809184539, 'target_update_period': 27, 'grad_clip': 0.16855841913663205}. Best is trial 0 with value: 146.0.
+2021-07-16 18:09:03,856 ------------------------------------------------------------------------------
+2021-07-16 18:09:03,856 Final task score = 18.0
+2021-07-16 18:09:03,864 Trial 3 finished with value: 18.0 and parameters: {'hidden_dim': 110, 'batch_size': 275, 'gamma': 0.5362308837395865, 'epsilon_end': 0.03601096451910368, 'epsilon_decay': 0.5456951725352844, 'target_update_period': 28, 'grad_clip': 0.18060490958076977}. Best is trial 0 with value: 146.0.
+2021-07-16 18:09:09,450 ------------------------------------------------------------------------------
+2021-07-16 18:09:09,450 Final task score = 16.0
+2021-07-16 18:09:09,457 Trial 4 finished with value: 16.0 and parameters: {'hidden_dim': 110, 'batch_size': 275, 'gamma': 0.5356164674325758, 'epsilon_end': 0.023313738233117918, 'epsilon_decay': 0.5479264870937032, 'target_update_period': 27, 'grad_clip': 0.16572015741177779}. Best is trial 0 with value: 146.0.
+2021-07-16 18:09:18,756 ------------------------------------------------------------------------------
+2021-07-16 18:09:18,756 Final task score = 69.0
+2021-07-16 18:09:18,767 Trial 5 finished with value: 69.0 and parameters: {'hidden_dim': 110, 'batch_size': 275, 'gamma': 0.5328333292076569, 'epsilon_end': 0.01963610651251743, 'epsilon_decay': 0.5492693521632969, 'target_update_period': 28, 'grad_clip': 0.1729063259716096}. Best is trial 0 with value: 146.0.
+2021-07-16 18:09:24,444 ------------------------------------------------------------------------------
+2021-07-16 18:09:24,444 Final task score = 22.0
+2021-07-16 18:09:24,451 Trial 6 finished with value: 22.0 and parameters: {'hidden_dim': 110, 'batch_size': 275, 'gamma': 0.5503900740564223, 'epsilon_end': 0.025010442762393257, 'epsilon_decay': 0.5516078682385533, 'target_update_period': 28, 'grad_clip': 0.17953491896634552}. Best is trial 0 with value: 146.0.
+2021-07-16 18:09:30,717 ------------------------------------------------------------------------------
+2021-07-16 18:09:30,717 Final task score = 40.0
+2021-07-16 18:09:30,725 Trial 7 finished with value: 40.0 and parameters: {'hidden_dim': 110, 'batch_size': 275, 'gamma': 0.5465116967148373, 'epsilon_end': 0.02784528352919183, 'epsilon_decay': 0.5484122924118745, 'target_update_period': 28, 'grad_clip': 0.18777590647511327}. Best is trial 0 with value: 146.0.
+2021-07-16 18:09:49,602 ------------------------------------------------------------------------------
+2021-07-16 18:09:49,602 Final task score = 74.0
+2021-07-16 18:09:49,626 Trial 8 finished with value: 74.0 and parameters: {'hidden_dim': 110, 'batch_size': 275, 'gamma': 0.5455642366247055, 'epsilon_end': 0.03720324868976596, 'epsilon_decay': 0.547608325852424, 'target_update_period': 27, 'grad_clip': 0.1853823159398686}. Best is trial 0 with value: 146.0.
+2021-07-16 18:10:05,429 ------------------------------------------------------------------------------
+2021-07-16 18:10:05,429 Final task score = 88.0
+2021-07-16 18:10:05,448 Trial 9 finished with value: 88.0 and parameters: {'hidden_dim': 110, 'batch_size': 275, 'gamma': 0.5314112687824689, 'epsilon_end': 0.015590574178878382, 'epsilon_decay': 0.5321220881757701, 'target_update_period': 28, 'grad_clip': 0.175225220823985}. Best is trial 0 with value: 146.0.
+2021-07-16 18:10:10,958 ------------------------------------------------------------------------------
+2021-07-16 18:10:10,958 Final task score = 16.0
+2021-07-16 18:10:10,965 Trial 10 finished with value: 16.0 and parameters: {'hidden_dim': 111, 'batch_size': 274, 'gamma': 0.1, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.1, 'target_update_period': 46, 'grad_clip': 0.29999999999999993}. Best is trial 0 with value: 146.0.
+2021-07-16 18:10:33,335 ------------------------------------------------------------------------------
+2021-07-16 18:10:33,336 Final task score = 143.0
+2021-07-16 18:10:33,363 Trial 11 finished with value: 143.0 and parameters: {'hidden_dim': 111, 'batch_size': 275, 'gamma': 0.9899999999999999, 'epsilon_end': 0.0001, 'epsilon_decay': 0.1, 'target_update_period': 29, 'grad_clip': 0.05}. Best is trial 0 with value: 146.0.
+2021-07-16 18:10:38,850 ------------------------------------------------------------------------------
+2021-07-16 18:10:38,850 Final task score = 15.0
+2021-07-16 18:10:38,857 Trial 12 finished with value: 15.0 and parameters: {'hidden_dim': 109, 'batch_size': 274, 'gamma': 0.34326479921101477, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.5478320708692063, 'target_update_period': 35, 'grad_clip': 0.29999999999999993}. Best is trial 0 with value: 146.0.
+2021-07-16 18:10:59,838 ------------------------------------------------------------------------------
+2021-07-16 18:10:59,840 Final task score = 155.0
+2021-07-16 18:10:59,867 Trial 13 finished with value: 155.0 and parameters: {'hidden_dim': 111, 'batch_size': 275, 'gamma': 0.6259720574164674, 'epsilon_end': 0.005035652546993128, 'epsilon_decay': 0.2971448652854036, 'target_update_period': 11, 'grad_clip': 0.15019984436537148}. Best is trial 13 with value: 155.0.
+2021-07-16 18:11:27,131 ------------------------------------------------------------------------------
+2021-07-16 18:11:27,132 Final task score = 120.0
+2021-07-16 18:11:27,165 Trial 14 finished with value: 120.0 and parameters: {'hidden_dim': 109, 'batch_size': 274, 'gamma': 0.9602888508313425, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.17720818197743327, 'target_update_period': 12, 'grad_clip': 0.05}. Best is trial 13 with value: 155.0.
+2021-07-16 18:11:49,571 ------------------------------------------------------------------------------
+2021-07-16 18:11:49,571 Final task score = 138.0
+2021-07-16 18:11:49,599 Trial 15 finished with value: 138.0 and parameters: {'hidden_dim': 112, 'batch_size': 275, 'gamma': 0.9899999999999999, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.1, 'target_update_period': 28, 'grad_clip': 0.29999999999999993}. Best is trial 13 with value: 155.0.
+2021-07-16 18:11:58,634 ------------------------------------------------------------------------------
+2021-07-16 18:11:58,635 Final task score = 27.0
+2021-07-16 18:11:58,646 Trial 16 finished with value: 27.0 and parameters: {'hidden_dim': 109, 'batch_size': 275, 'gamma': 0.1, 'epsilon_end': 0.0001, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 27, 'grad_clip': 0.05}. Best is trial 13 with value: 155.0.
+2021-07-16 18:13:01,450 ------------------------------------------------------------------------------
+2021-07-16 18:13:01,451 Final task score = 293.0
+2021-07-16 18:13:01,528 Trial 17 finished with value: 293.0 and parameters: {'hidden_dim': 110, 'batch_size': 275, 'gamma': 0.9899999999999999, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.3161387184880059, 'target_update_period': 25, 'grad_clip': 0.29999999999999993}. Best is trial 17 with value: 293.0.
+2021-07-16 18:13:10,202 ------------------------------------------------------------------------------
+2021-07-16 18:13:10,202 Final task score = 23.0
+2021-07-16 18:13:10,213 Trial 18 finished with value: 23.0 and parameters: {'hidden_dim': 109, 'batch_size': 276, 'gamma': 0.19674389490628402, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.4861870204322816, 'target_update_period': 41, 'grad_clip': 0.29999999999999993}. Best is trial 17 with value: 293.0.
+2021-07-16 18:13:10,609 The parameter 'target_update_period' in trial#19 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 18:13:20,343 ------------------------------------------------------------------------------
+2021-07-16 18:13:20,343 Final task score = 40.0
+2021-07-16 18:13:20,355 Trial 19 finished with value: 40.0 and parameters: {'hidden_dim': 95, 'batch_size': 290, 'gamma': 0.1, 'epsilon_end': 0.0001, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 5, 'grad_clip': 0.05}. Best is trial 17 with value: 293.0.
+2021-07-16 18:13:28,517 ------------------------------------------------------------------------------
+2021-07-16 18:13:28,518 Final task score = 20.0
+2021-07-16 18:13:28,528 Trial 20 finished with value: 20.0 and parameters: {'hidden_dim': 123, 'batch_size': 257, 'gamma': 0.1, 'epsilon_end': 0.0001, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 5, 'grad_clip': 0.05}. Best is trial 17 with value: 293.0.
+2021-07-16 18:13:37,887 ------------------------------------------------------------------------------
+2021-07-16 18:13:37,887 Final task score = 47.0
+2021-07-16 18:13:37,898 Trial 21 finished with value: 47.0 and parameters: {'hidden_dim': 108, 'batch_size': 270, 'gamma': 0.1, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 5, 'grad_clip': 0.29999999999999993}. Best is trial 17 with value: 293.0.
+2021-07-16 18:13:38,355 The parameter 'target_update_period' in trial#22 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 18:13:47,531 ------------------------------------------------------------------------------
+2021-07-16 18:13:47,532 Final task score = 32.0
+2021-07-16 18:13:47,542 Trial 22 finished with value: 32.0 and parameters: {'hidden_dim': 128, 'batch_size': 281, 'gamma': 0.1, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 5, 'grad_clip': 0.05}. Best is trial 17 with value: 293.0.
+2021-07-16 18:13:51,816 ------------------------------------------------------------------------------
+2021-07-16 18:13:51,816 Final task score = 11.0
+2021-07-16 18:13:51,823 Trial 23 finished with value: 11.0 and parameters: {'hidden_dim': 86, 'batch_size': 275, 'gamma': 0.9899999999999999, 'epsilon_end': 0.0001, 'epsilon_decay': 0.1, 'target_update_period': 9, 'grad_clip': 0.05}. Best is trial 17 with value: 293.0.
+2021-07-16 18:14:00,509 ------------------------------------------------------------------------------
+2021-07-16 18:14:00,509 Final task score = 20.0
+2021-07-16 18:14:00,519 Trial 24 finished with value: 20.0 and parameters: {'hidden_dim': 109, 'batch_size': 259, 'gamma': 0.1, 'epsilon_end': 0.0001, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 5, 'grad_clip': 0.29999999999999993}. Best is trial 17 with value: 293.0.
+2021-07-16 18:14:09,156 ------------------------------------------------------------------------------
+2021-07-16 18:14:09,157 Final task score = 23.0
+2021-07-16 18:14:09,167 Trial 25 finished with value: 23.0 and parameters: {'hidden_dim': 84, 'batch_size': 272, 'gamma': 0.1, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.1, 'target_update_period': 5, 'grad_clip': 0.05}. Best is trial 17 with value: 293.0.
+2021-07-16 18:14:15,112 ------------------------------------------------------------------------------
+2021-07-16 18:14:15,113 Final task score = 13.0
+2021-07-16 18:14:15,120 Trial 26 finished with value: 13.0 and parameters: {'hidden_dim': 122, 'batch_size': 240, 'gamma': 0.1, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.1, 'target_update_period': 5, 'grad_clip': 0.05}. Best is trial 17 with value: 293.0.
+2021-07-16 18:14:24,978 ------------------------------------------------------------------------------
+2021-07-16 18:14:24,978 Final task score = 24.0
+2021-07-16 18:14:24,993 Trial 27 finished with value: 24.0 and parameters: {'hidden_dim': 84, 'batch_size': 266, 'gamma': 0.1, 'epsilon_end': 0.0001, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 5, 'grad_clip': 0.29999999999999993}. Best is trial 17 with value: 293.0.
+2021-07-16 18:14:25,558 The parameter 'target_update_period' in trial#28 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 18:14:36,445 ------------------------------------------------------------------------------
+2021-07-16 18:14:36,446 Final task score = 26.0
+2021-07-16 18:14:36,458 Trial 28 finished with value: 26.0 and parameters: {'hidden_dim': 20, 'batch_size': 378, 'gamma': 0.1, 'epsilon_end': 0.0001, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 20, 'grad_clip': 0.29999999999999993}. Best is trial 17 with value: 293.0.
+2021-07-16 18:14:39,886 ------------------------------------------------------------------------------
+2021-07-16 18:14:39,886 Final task score = 10.0
+2021-07-16 18:14:39,892 Trial 29 finished with value: 10.0 and parameters: {'hidden_dim': 66, 'batch_size': 109, 'gamma': 0.9899999999999999, 'epsilon_end': 0.0001, 'epsilon_decay': 0.1, 'target_update_period': 5, 'grad_clip': 0.29999999999999993}. Best is trial 17 with value: 293.0.
+2021-07-16 18:14:40,480 The parameter 'target_update_period' in trial#30 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 18:14:45,621 ------------------------------------------------------------------------------
+2021-07-16 18:14:45,622 Final task score = 92.0
+2021-07-16 18:14:45,635 Trial 30 finished with value: 92.0 and parameters: {'hidden_dim': 20, 'batch_size': 177, 'gamma': 0.9899999999999999, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.1, 'target_update_period': 37, 'grad_clip': 0.05}. Best is trial 17 with value: 293.0.
+2021-07-16 18:14:59,757 ------------------------------------------------------------------------------
+2021-07-16 18:14:59,758 Final task score = 39.0
+2021-07-16 18:14:59,774 Trial 31 finished with value: 39.0 and parameters: {'hidden_dim': 100, 'batch_size': 288, 'gamma': 0.1, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.1, 'target_update_period': 5, 'grad_clip': 0.29999999999999993}. Best is trial 17 with value: 293.0.
+2021-07-16 18:15:00,400 The parameter 'target_update_period' in trial#32 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 18:15:10,908 ------------------------------------------------------------------------------
+2021-07-16 18:15:10,908 Final task score = 70.0
+2021-07-16 18:15:10,923 Trial 32 finished with value: 70.0 and parameters: {'hidden_dim': 20, 'batch_size': 250, 'gamma': 0.1, 'epsilon_end': 0.0001, 'epsilon_decay': 0.1, 'target_update_period': 12, 'grad_clip': 0.05}. Best is trial 17 with value: 293.0.
+2021-07-16 18:15:23,364 ------------------------------------------------------------------------------
+2021-07-16 18:15:23,365 Final task score = 20.0
+2021-07-16 18:15:23,376 Trial 33 finished with value: 20.0 and parameters: {'hidden_dim': 147, 'batch_size': 416, 'gamma': 0.1, 'epsilon_end': 0.0001, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 5, 'grad_clip': 0.29999999999999993}. Best is trial 17 with value: 293.0.
+2021-07-16 18:15:31,097 ------------------------------------------------------------------------------
+2021-07-16 18:15:31,097 Final task score = 20.0
+2021-07-16 18:15:31,105 Trial 34 finished with value: 20.0 and parameters: {'hidden_dim': 194, 'batch_size': 280, 'gamma': 0.1, 'epsilon_end': 0.0001, 'epsilon_decay': 0.1, 'target_update_period': 5, 'grad_clip': 0.05}. Best is trial 17 with value: 293.0.
+2021-07-16 18:15:31,775 The parameter 'target_update_period' in trial#35 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 18:15:48,813 ------------------------------------------------------------------------------
+2021-07-16 18:15:48,813 Final task score = 90.0
+2021-07-16 18:15:48,836 Trial 35 finished with value: 90.0 and parameters: {'hidden_dim': 189, 'batch_size': 186, 'gamma': 0.9899999999999999, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 43, 'grad_clip': 0.29999999999999993}. Best is trial 17 with value: 293.0.
+2021-07-16 18:15:49,801 The parameter 'target_update_period' in trial#36 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 18:15:53,256 ------------------------------------------------------------------------------
+2021-07-16 18:15:53,257 Final task score = 10.0
+2021-07-16 18:15:53,262 Trial 36 finished with value: 10.0 and parameters: {'hidden_dim': 41, 'batch_size': 200, 'gamma': 0.9899999999999999, 'epsilon_end': 0.0001, 'epsilon_decay': 0.1, 'target_update_period': 10, 'grad_clip': 0.05}. Best is trial 17 with value: 293.0.
+2021-07-16 18:16:17,708 ------------------------------------------------------------------------------
+2021-07-16 18:16:17,709 Final task score = 159.0
+2021-07-16 18:16:17,748 Trial 37 finished with value: 159.0 and parameters: {'hidden_dim': 200, 'batch_size': 68, 'gamma': 0.9899999999999999, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 5, 'grad_clip': 0.29999999999999993}. Best is trial 17 with value: 293.0.
+2021-07-16 18:16:18,489 The parameter 'target_update_period' in trial#38 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 18:16:29,502 ------------------------------------------------------------------------------
+2021-07-16 18:16:29,503 Final task score = 29.0
+2021-07-16 18:16:29,516 Trial 38 finished with value: 29.0 and parameters: {'hidden_dim': 200, 'batch_size': 349, 'gamma': 0.1, 'epsilon_end': 0.0001, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 16, 'grad_clip': 0.29999999999999993}. Best is trial 17 with value: 293.0.
+2021-07-16 18:16:30,446 The parameter 'target_update_period' in trial#39 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 18:16:33,572 ------------------------------------------------------------------------------
+2021-07-16 18:16:33,573 Final task score = 9.0
+2021-07-16 18:16:33,579 Trial 39 finished with value: 9.0 and parameters: {'hidden_dim': 200, 'batch_size': 112, 'gamma': 0.9899999999999999, 'epsilon_end': 0.0001, 'epsilon_decay': 0.1, 'target_update_period': 41, 'grad_clip': 0.05}. Best is trial 17 with value: 293.0.
+2021-07-16 18:16:34,353 The parameter 'target_update_period' in trial#40 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 18:16:39,801 ------------------------------------------------------------------------------
+2021-07-16 18:16:39,801 Final task score = 34.0
+2021-07-16 18:16:39,813 Trial 40 finished with value: 34.0 and parameters: {'hidden_dim': 20, 'batch_size': 50, 'gamma': 0.1, 'epsilon_end': 0.0001, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 9, 'grad_clip': 0.29999999999999993}. Best is trial 17 with value: 293.0.
+2021-07-16 18:16:46,116 ------------------------------------------------------------------------------
+2021-07-16 18:16:46,116 Final task score = 18.0
+2021-07-16 18:16:46,124 Trial 41 finished with value: 18.0 and parameters: {'hidden_dim': 20, 'batch_size': 334, 'gamma': 0.1, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.1, 'target_update_period': 5, 'grad_clip': 0.29999999999999993}. Best is trial 17 with value: 293.0.
+2021-07-16 18:16:46,937 The parameter 'target_update_period' in trial#42 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 18:16:57,140 ------------------------------------------------------------------------------
+2021-07-16 18:16:57,141 Final task score = 131.0
+2021-07-16 18:16:57,161 Trial 42 finished with value: 131.0 and parameters: {'hidden_dim': 200, 'batch_size': 50, 'gamma': 0.9899999999999999, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.1, 'target_update_period': 29, 'grad_clip': 0.29999999999999993}. Best is trial 17 with value: 293.0.
+2021-07-16 18:16:57,988 The parameter 'target_update_period' in trial#43 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 18:17:19,236 ------------------------------------------------------------------------------
+2021-07-16 18:17:19,237 Final task score = 121.0
+2021-07-16 18:17:19,260 Trial 43 finished with value: 121.0 and parameters: {'hidden_dim': 20, 'batch_size': 500, 'gamma': 0.9899999999999999, 'epsilon_end': 0.0001, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 30, 'grad_clip': 0.29999999999999993}. Best is trial 17 with value: 293.0.
+2021-07-16 18:17:20,094 The parameter 'target_update_period' in trial#44 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 18:17:24,452 ------------------------------------------------------------------------------
+2021-07-16 18:17:24,453 Final task score = 15.0
+2021-07-16 18:17:24,463 Trial 44 finished with value: 15.0 and parameters: {'hidden_dim': 20, 'batch_size': 50, 'gamma': 0.1, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 48, 'grad_clip': 0.29999999999999993}. Best is trial 17 with value: 293.0.
+2021-07-16 18:17:25,644 The parameter 'target_update_period' in trial#45 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 18:18:19,127 ------------------------------------------------------------------------------
+2021-07-16 18:18:19,128 Final task score = 229.0
+2021-07-16 18:18:19,189 Trial 45 finished with value: 229.0 and parameters: {'hidden_dim': 20, 'batch_size': 352, 'gamma': 0.9899999999999999, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 13, 'grad_clip': 0.05}. Best is trial 17 with value: 293.0.
+2021-07-16 18:18:20,081 The parameter 'target_update_period' in trial#46 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 18:18:30,770 ------------------------------------------------------------------------------
+2021-07-16 18:18:30,771 Final task score = 19.0
+2021-07-16 18:18:30,781 Trial 46 finished with value: 19.0 and parameters: {'hidden_dim': 200, 'batch_size': 500, 'gamma': 0.1, 'epsilon_end': 0.0001, 'epsilon_decay': 0.1, 'target_update_period': 17, 'grad_clip': 0.29999999999999993}. Best is trial 17 with value: 293.0.
+2021-07-16 18:18:35,106 ------------------------------------------------------------------------------
+2021-07-16 18:18:35,107 Final task score = 10.0
+2021-07-16 18:18:35,113 Trial 47 finished with value: 10.0 and parameters: {'hidden_dim': 20, 'batch_size': 171, 'gamma': 0.9899999999999999, 'epsilon_end': 0.0001, 'epsilon_decay': 0.1, 'target_update_period': 5, 'grad_clip': 0.29999999999999993}. Best is trial 17 with value: 293.0.
+2021-07-16 18:18:36,100 The parameter 'target_update_period' in trial#48 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 18:20:21,460 ------------------------------------------------------------------------------
+2021-07-16 18:20:21,461 Final task score = 501.0
+2021-07-16 18:20:21,537 Trial 48 finished with value: 501.0 and parameters: {'hidden_dim': 200, 'batch_size': 500, 'gamma': 0.9899999999999999, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 5, 'grad_clip': 0.29999999999999993}. Best is trial 48 with value: 501.0.
+2021-07-16 18:20:30,486 ------------------------------------------------------------------------------
+2021-07-16 18:20:30,487 Final task score = 35.0
+2021-07-16 18:20:30,500 Trial 49 finished with value: 35.0 and parameters: {'hidden_dim': 200, 'batch_size': 50, 'gamma': 0.1, 'epsilon_end': 0.0001, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 5, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 18:20:31,619 The parameter 'target_update_period' in trial#50 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 18:20:38,265 ------------------------------------------------------------------------------
+2021-07-16 18:20:38,266 Final task score = 35.0
+2021-07-16 18:20:38,276 Trial 50 finished with value: 35.0 and parameters: {'hidden_dim': 20, 'batch_size': 252, 'gamma': 0.9899999999999999, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.1, 'target_update_period': 26, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 18:20:39,466 The parameter 'target_update_period' in trial#51 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 18:20:44,491 ------------------------------------------------------------------------------
+2021-07-16 18:20:44,491 Final task score = 14.0
+2021-07-16 18:20:44,498 Trial 51 finished with value: 14.0 and parameters: {'hidden_dim': 20, 'batch_size': 467, 'gamma': 0.9899999999999999, 'epsilon_end': 0.0001, 'epsilon_decay': 0.1, 'target_update_period': 46, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 18:20:45,989 The parameter 'target_update_period' in trial#52 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 18:21:17,013 ------------------------------------------------------------------------------
+2021-07-16 18:21:17,014 Final task score = 126.0
+2021-07-16 18:21:17,042 Trial 52 finished with value: 126.0 and parameters: {'hidden_dim': 20, 'batch_size': 500, 'gamma': 0.9899999999999999, 'epsilon_end': 0.0001, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 48, 'grad_clip': 0.29999999999999993}. Best is trial 48 with value: 501.0.
+2021-07-16 18:21:18,215 The parameter 'target_update_period' in trial#53 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 18:21:30,732 ------------------------------------------------------------------------------
+2021-07-16 18:21:30,732 Final task score = 21.0
+2021-07-16 18:21:30,743 Trial 53 finished with value: 21.0 and parameters: {'hidden_dim': 103, 'batch_size': 500, 'gamma': 0.1, 'epsilon_end': 0.0001, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 41, 'grad_clip': 0.29999999999999993}. Best is trial 48 with value: 501.0.
+2021-07-16 18:21:37,075 ------------------------------------------------------------------------------
+2021-07-16 18:21:37,075 Final task score = 10.0
+2021-07-16 18:21:37,081 Trial 54 finished with value: 10.0 and parameters: {'hidden_dim': 20, 'batch_size': 500, 'gamma': 0.9899999999999999, 'epsilon_end': 0.0001, 'epsilon_decay': 0.1, 'target_update_period': 5, 'grad_clip': 0.29999999999999993}. Best is trial 48 with value: 501.0.
+2021-07-16 18:21:38,287 The parameter 'target_update_period' in trial#55 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 18:21:43,042 ------------------------------------------------------------------------------
+2021-07-16 18:21:43,042 Final task score = 10.0
+2021-07-16 18:21:43,048 Trial 55 finished with value: 10.0 and parameters: {'hidden_dim': 20, 'batch_size': 422, 'gamma': 0.1, 'epsilon_end': 0.0001, 'epsilon_decay': 0.1, 'target_update_period': 50, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 18:21:44,286 The parameter 'target_update_period' in trial#56 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 18:21:50,478 ------------------------------------------------------------------------------
+2021-07-16 18:21:50,478 Final task score = 10.0
+2021-07-16 18:21:50,486 Trial 56 finished with value: 10.0 and parameters: {'hidden_dim': 200, 'batch_size': 500, 'gamma': 0.1, 'epsilon_end': 0.0001, 'epsilon_decay': 0.1, 'target_update_period': 44, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 18:21:51,887 The parameter 'target_update_period' in trial#57 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 18:21:58,976 ------------------------------------------------------------------------------
+2021-07-16 18:21:58,976 Final task score = 24.0
+2021-07-16 18:21:58,987 Trial 57 finished with value: 24.0 and parameters: {'hidden_dim': 20, 'batch_size': 50, 'gamma': 0.1, 'epsilon_end': 0.0001, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 12, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 18:22:00,211 The parameter 'target_update_period' in trial#58 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 18:22:05,005 ------------------------------------------------------------------------------
+2021-07-16 18:22:05,006 Final task score = 10.0
+2021-07-16 18:22:05,014 Trial 58 finished with value: 10.0 and parameters: {'hidden_dim': 20, 'batch_size': 500, 'gamma': 0.1, 'epsilon_end': 0.0001, 'epsilon_decay': 0.1, 'target_update_period': 50, 'grad_clip': 0.29999999999999993}. Best is trial 48 with value: 501.0.
+2021-07-16 18:22:06,448 The parameter 'target_update_period' in trial#59 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 18:22:49,642 ------------------------------------------------------------------------------
+2021-07-16 18:22:49,643 Final task score = 210.0
+2021-07-16 18:22:49,702 Trial 59 finished with value: 210.0 and parameters: {'hidden_dim': 200, 'batch_size': 135, 'gamma': 0.9899999999999999, 'epsilon_end': 0.0001, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 6, 'grad_clip': 0.29999999999999993}. Best is trial 48 with value: 501.0.
+2021-07-16 18:23:18,683 ------------------------------------------------------------------------------
+2021-07-16 18:23:18,684 Final task score = 137.0
+2021-07-16 18:23:18,728 Trial 60 finished with value: 137.0 and parameters: {'hidden_dim': 200, 'batch_size': 50, 'gamma': 0.9899999999999999, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 5, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 18:23:20,255 The parameter 'target_update_period' in trial#61 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 18:23:37,804 ------------------------------------------------------------------------------
+2021-07-16 18:23:37,804 Final task score = 30.0
+2021-07-16 18:23:37,819 Trial 61 finished with value: 30.0 and parameters: {'hidden_dim': 200, 'batch_size': 500, 'gamma': 0.1, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 8, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 18:23:39,112 The parameter 'target_update_period' in trial#62 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 18:23:48,649 ------------------------------------------------------------------------------
+2021-07-16 18:23:48,650 Final task score = 84.0
+2021-07-16 18:23:48,668 Trial 62 finished with value: 84.0 and parameters: {'hidden_dim': 200, 'batch_size': 50, 'gamma': 0.9899999999999999, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 45, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 18:23:50,327 The parameter 'target_update_period' in trial#63 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 18:23:56,109 ------------------------------------------------------------------------------
+2021-07-16 18:23:56,109 Final task score = 119.0
+2021-07-16 18:23:56,122 Trial 63 finished with value: 119.0 and parameters: {'hidden_dim': 20, 'batch_size': 50, 'gamma': 0.1, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.1, 'target_update_period': 49, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 18:24:05,085 ------------------------------------------------------------------------------
+2021-07-16 18:24:05,086 Final task score = 21.0
+2021-07-16 18:24:05,098 Trial 64 finished with value: 21.0 and parameters: {'hidden_dim': 200, 'batch_size': 50, 'gamma': 0.1, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 5, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 18:24:06,444 The parameter 'target_update_period' in trial#65 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 18:24:32,287 ------------------------------------------------------------------------------
+2021-07-16 18:24:32,287 Final task score = 151.0
+2021-07-16 18:24:32,330 Trial 65 finished with value: 151.0 and parameters: {'hidden_dim': 200, 'batch_size': 50, 'gamma': 0.9899999999999999, 'epsilon_end': 0.0001, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 11, 'grad_clip': 0.29999999999999993}. Best is trial 48 with value: 501.0.
+2021-07-16 18:24:50,149 ------------------------------------------------------------------------------
+2021-07-16 18:24:50,149 Final task score = 25.0
+2021-07-16 18:24:50,166 Trial 66 finished with value: 25.0 and parameters: {'hidden_dim': 200, 'batch_size': 341, 'gamma': 0.1, 'epsilon_end': 0.0001, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 5, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 18:24:57,156 ------------------------------------------------------------------------------
+2021-07-16 18:24:57,157 Final task score = 36.0
+2021-07-16 18:24:57,167 Trial 67 finished with value: 36.0 and parameters: {'hidden_dim': 20, 'batch_size': 50, 'gamma': 0.1, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 5, 'grad_clip': 0.29999999999999993}. Best is trial 48 with value: 501.0.
+2021-07-16 18:24:59,056 The parameter 'target_update_period' in trial#68 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 18:25:05,960 ------------------------------------------------------------------------------
+2021-07-16 18:25:05,960 Final task score = 62.0
+2021-07-16 18:25:05,975 Trial 68 finished with value: 62.0 and parameters: {'hidden_dim': 20, 'batch_size': 50, 'gamma': 0.9899999999999999, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 46, 'grad_clip': 0.29999999999999993}. Best is trial 48 with value: 501.0.
+2021-07-16 18:25:46,289 ------------------------------------------------------------------------------
+2021-07-16 18:25:46,290 Final task score = 159.0
+2021-07-16 18:25:46,343 Trial 69 finished with value: 159.0 and parameters: {'hidden_dim': 200, 'batch_size': 121, 'gamma': 0.9899999999999999, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.1, 'target_update_period': 5, 'grad_clip': 0.29999999999999993}. Best is trial 48 with value: 501.0.
+2021-07-16 18:25:47,894 The parameter 'target_update_period' in trial#70 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 18:25:57,569 ------------------------------------------------------------------------------
+2021-07-16 18:25:57,569 Final task score = 25.0
+2021-07-16 18:25:57,579 Trial 70 finished with value: 25.0 and parameters: {'hidden_dim': 200, 'batch_size': 500, 'gamma': 0.9899999999999999, 'epsilon_end': 0.0001, 'epsilon_decay': 0.1, 'target_update_period': 35, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 18:26:02,659 ------------------------------------------------------------------------------
+2021-07-16 18:26:02,659 Final task score = 10.0
+2021-07-16 18:26:02,665 Trial 71 finished with value: 10.0 and parameters: {'hidden_dim': 20, 'batch_size': 50, 'gamma': 0.9899999999999999, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.1, 'target_update_period': 5, 'grad_clip': 0.29999999999999993}. Best is trial 48 with value: 501.0.
+2021-07-16 18:26:13,448 ------------------------------------------------------------------------------
+2021-07-16 18:26:13,448 Final task score = 38.0
+2021-07-16 18:26:13,466 Trial 72 finished with value: 38.0 and parameters: {'hidden_dim': 200, 'batch_size': 50, 'gamma': 0.1, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.1, 'target_update_period': 5, 'grad_clip': 0.29999999999999993}. Best is trial 48 with value: 501.0.
+2021-07-16 18:26:37,430 ------------------------------------------------------------------------------
+2021-07-16 18:26:37,431 Final task score = 75.0
+2021-07-16 18:26:37,449 Trial 73 finished with value: 75.0 and parameters: {'hidden_dim': 200, 'batch_size': 500, 'gamma': 0.9899999999999999, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.1, 'target_update_period': 5, 'grad_clip': 0.29999999999999993}. Best is trial 48 with value: 501.0.
+2021-07-16 18:26:42,702 ------------------------------------------------------------------------------
+2021-07-16 18:26:42,702 Final task score = 10.0
+2021-07-16 18:26:42,710 Trial 74 finished with value: 10.0 and parameters: {'hidden_dim': 20, 'batch_size': 50, 'gamma': 0.9899999999999999, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.1, 'target_update_period': 5, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 18:26:44,297 The parameter 'target_update_period' in trial#75 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 18:26:50,190 ------------------------------------------------------------------------------
+2021-07-16 18:26:50,190 Final task score = 11.0
+2021-07-16 18:26:50,198 Trial 75 finished with value: 11.0 and parameters: {'hidden_dim': 20, 'batch_size': 500, 'gamma': 0.1, 'epsilon_end': 0.0001, 'epsilon_decay': 0.1, 'target_update_period': 43, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 18:26:57,083 ------------------------------------------------------------------------------
+2021-07-16 18:26:57,083 Final task score = 12.0
+2021-07-16 18:26:57,090 Trial 76 finished with value: 12.0 and parameters: {'hidden_dim': 20, 'batch_size': 500, 'gamma': 0.9899999999999999, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.1, 'target_update_period': 5, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 18:26:58,766 The parameter 'target_update_period' in trial#77 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 18:27:05,530 ------------------------------------------------------------------------------
+2021-07-16 18:27:05,531 Final task score = 27.0
+2021-07-16 18:27:05,538 Trial 77 finished with value: 27.0 and parameters: {'hidden_dim': 20, 'batch_size': 500, 'gamma': 0.9899999999999999, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.1, 'target_update_period': 37, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 18:27:07,171 The parameter 'target_update_period' in trial#78 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 18:27:15,236 ------------------------------------------------------------------------------
+2021-07-16 18:27:15,236 Final task score = 17.0
+2021-07-16 18:27:15,245 Trial 78 finished with value: 17.0 and parameters: {'hidden_dim': 20, 'batch_size': 500, 'gamma': 0.1, 'epsilon_end': 0.0001, 'epsilon_decay': 0.1, 'target_update_period': 45, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 18:27:16,943 The parameter 'target_update_period' in trial#79 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 18:27:27,775 ------------------------------------------------------------------------------
+2021-07-16 18:27:27,780 Final task score = 45.0
+2021-07-16 18:27:27,792 Trial 79 finished with value: 45.0 and parameters: {'hidden_dim': 20, 'batch_size': 500, 'gamma': 0.9899999999999999, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.1, 'target_update_period': 12, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 18:27:29,890 The parameter 'target_update_period' in trial#80 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 18:27:33,357 ------------------------------------------------------------------------------
+2021-07-16 18:27:33,357 Final task score = 11.0
+2021-07-16 18:27:33,362 Trial 80 finished with value: 11.0 and parameters: {'hidden_dim': 20, 'batch_size': 50, 'gamma': 0.9899999999999999, 'epsilon_end': 0.0001, 'epsilon_decay': 0.1, 'target_update_period': 11, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 18:27:39,936 ------------------------------------------------------------------------------
+2021-07-16 18:27:39,936 Final task score = 15.0
+2021-07-16 18:27:39,943 Trial 81 finished with value: 15.0 and parameters: {'hidden_dim': 20, 'batch_size': 50, 'gamma': 0.9899999999999999, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 5, 'grad_clip': 0.29999999999999993}. Best is trial 48 with value: 501.0.
+2021-07-16 18:27:41,542 The parameter 'target_update_period' in trial#82 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 18:27:45,935 ------------------------------------------------------------------------------
+2021-07-16 18:27:45,935 Final task score = 17.0
+2021-07-16 18:27:45,942 Trial 82 finished with value: 17.0 and parameters: {'hidden_dim': 195, 'batch_size': 50, 'gamma': 0.1, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.1, 'target_update_period': 9, 'grad_clip': 0.29999999999999993}. Best is trial 48 with value: 501.0.
+2021-07-16 18:27:47,759 The parameter 'target_update_period' in trial#83 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 18:28:46,175 ------------------------------------------------------------------------------
+2021-07-16 18:28:46,176 Final task score = 136.0
+2021-07-16 18:28:46,218 Trial 83 finished with value: 136.0 and parameters: {'hidden_dim': 200, 'batch_size': 462, 'gamma': 0.9899999999999999, 'epsilon_end': 0.0001, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 13, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 18:28:48,539 The parameter 'target_update_period' in trial#84 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 18:29:05,819 ------------------------------------------------------------------------------
+2021-07-16 18:29:05,820 Final task score = 42.0
+2021-07-16 18:29:05,833 Trial 84 finished with value: 42.0 and parameters: {'hidden_dim': 200, 'batch_size': 500, 'gamma': 0.9899999999999999, 'epsilon_end': 0.0001, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 45, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 18:29:08,147 The parameter 'target_update_period' in trial#85 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 18:29:19,672 ------------------------------------------------------------------------------
+2021-07-16 18:29:19,672 Final task score = 21.0
+2021-07-16 18:29:19,682 Trial 85 finished with value: 21.0 and parameters: {'hidden_dim': 88, 'batch_size': 500, 'gamma': 0.1, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 27, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 18:40:25,611 ------------------------------------------------------------------------------
+2021-07-16 18:40:25,612 Final task score = 118.0
+2021-07-16 18:40:25,657 Trial 86 finished with value: 118.0 and parameters: {'hidden_dim': 200, 'batch_size': 500, 'gamma': 0.9899999999999999, 'epsilon_end': 0.0001, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 5, 'grad_clip': 0.29999999999999993}. Best is trial 48 with value: 501.0.
+2021-07-16 18:40:34,594 ------------------------------------------------------------------------------
+2021-07-16 18:40:34,594 Final task score = 37.0
+2021-07-16 18:40:34,603 Trial 87 finished with value: 37.0 and parameters: {'hidden_dim': 20, 'batch_size': 500, 'gamma': 0.9899999999999999, 'epsilon_end': 0.0001, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 5, 'grad_clip': 0.29999999999999993}. Best is trial 48 with value: 501.0.
+2021-07-16 18:40:36,919 The parameter 'target_update_period' in trial#88 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 18:40:48,098 ------------------------------------------------------------------------------
+2021-07-16 18:40:48,098 Final task score = 33.0
+2021-07-16 18:40:48,108 Trial 88 finished with value: 33.0 and parameters: {'hidden_dim': 200, 'batch_size': 500, 'gamma': 0.1, 'epsilon_end': 0.0001, 'epsilon_decay': 0.1, 'target_update_period': 7, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 18:41:02,539 ------------------------------------------------------------------------------
+2021-07-16 18:41:02,539 Final task score = 25.0
+2021-07-16 18:41:02,551 Trial 89 finished with value: 25.0 and parameters: {'hidden_dim': 200, 'batch_size': 294, 'gamma': 0.1, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 5, 'grad_clip': 0.29999999999999993}. Best is trial 48 with value: 501.0.
+2021-07-16 18:41:04,257 The parameter 'target_update_period' in trial#90 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 18:41:08,336 ------------------------------------------------------------------------------
+2021-07-16 18:41:08,336 Final task score = 11.0
+2021-07-16 18:41:08,342 Trial 90 finished with value: 11.0 and parameters: {'hidden_dim': 20, 'batch_size': 500, 'gamma': 0.1, 'epsilon_end': 0.0001, 'epsilon_decay': 0.1, 'target_update_period': 35, 'grad_clip': 0.29999999999999993}. Best is trial 48 with value: 501.0.
+2021-07-16 18:41:27,894 ------------------------------------------------------------------------------
+2021-07-16 18:41:27,895 Final task score = 37.0
+2021-07-16 18:41:27,908 Trial 91 finished with value: 37.0 and parameters: {'hidden_dim': 200, 'batch_size': 500, 'gamma': 0.1, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 5, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 18:41:41,564 ------------------------------------------------------------------------------
+2021-07-16 18:41:41,565 Final task score = 39.0
+2021-07-16 18:41:41,579 Trial 92 finished with value: 39.0 and parameters: {'hidden_dim': 20, 'batch_size': 500, 'gamma': 0.9899999999999999, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 5, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 18:41:43,855 The parameter 'target_update_period' in trial#93 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 18:42:09,412 ------------------------------------------------------------------------------
+2021-07-16 18:42:09,412 Final task score = 133.0
+2021-07-16 18:42:09,431 Trial 93 finished with value: 133.0 and parameters: {'hidden_dim': 200, 'batch_size': 500, 'gamma': 0.9899999999999999, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.1, 'target_update_period': 45, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 18:42:15,813 ------------------------------------------------------------------------------
+2021-07-16 18:42:15,813 Final task score = 10.0
+2021-07-16 18:42:15,820 Trial 94 finished with value: 10.0 and parameters: {'hidden_dim': 200, 'batch_size': 189, 'gamma': 0.9899999999999999, 'epsilon_end': 0.0001, 'epsilon_decay': 0.1, 'target_update_period': 5, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 18:42:20,615 ------------------------------------------------------------------------------
+2021-07-16 18:42:20,615 Final task score = 10.0
+2021-07-16 18:42:20,620 Trial 95 finished with value: 10.0 and parameters: {'hidden_dim': 20, 'batch_size': 50, 'gamma': 0.9899999999999999, 'epsilon_end': 0.0001, 'epsilon_decay': 0.1, 'target_update_period': 5, 'grad_clip': 0.29999999999999993}. Best is trial 48 with value: 501.0.
+2021-07-16 18:42:45,538 ------------------------------------------------------------------------------
+2021-07-16 18:42:45,538 Final task score = 128.0
+2021-07-16 18:42:45,554 Trial 96 finished with value: 128.0 and parameters: {'hidden_dim': 200, 'batch_size': 500, 'gamma': 0.9899999999999999, 'epsilon_end': 0.0001, 'epsilon_decay': 0.1, 'target_update_period': 5, 'grad_clip': 0.29999999999999993}. Best is trial 48 with value: 501.0.
+2021-07-16 18:43:21,939 ------------------------------------------------------------------------------
+2021-07-16 18:43:21,940 Final task score = 103.0
+2021-07-16 18:43:21,969 Trial 97 finished with value: 103.0 and parameters: {'hidden_dim': 200, 'batch_size': 293, 'gamma': 0.9899999999999999, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 5, 'grad_clip': 0.29999999999999993}. Best is trial 48 with value: 501.0.
+2021-07-16 18:43:38,380 ------------------------------------------------------------------------------
+2021-07-16 18:43:38,380 Final task score = 25.0
+2021-07-16 18:43:38,394 Trial 98 finished with value: 25.0 and parameters: {'hidden_dim': 200, 'batch_size': 500, 'gamma': 0.1, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 5, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 18:43:40,732 The parameter 'target_update_period' in trial#99 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 18:43:56,323 ------------------------------------------------------------------------------
+2021-07-16 18:43:56,324 Final task score = 23.0
+2021-07-16 18:43:56,336 Trial 99 finished with value: 23.0 and parameters: {'hidden_dim': 200, 'batch_size': 500, 'gamma': 0.1, 'epsilon_end': 0.0001, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 28, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 18:43:58,239 The parameter 'target_update_period' in trial#100 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 18:44:02,696 ------------------------------------------------------------------------------
+2021-07-16 18:44:02,696 Final task score = 10.0
+2021-07-16 18:44:02,704 Trial 100 finished with value: 10.0 and parameters: {'hidden_dim': 20, 'batch_size': 465, 'gamma': 0.1, 'epsilon_end': 0.0001, 'epsilon_decay': 0.1, 'target_update_period': 9, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 18:44:09,827 ------------------------------------------------------------------------------
+2021-07-16 18:44:09,827 Final task score = 11.0
+2021-07-16 18:44:09,833 Trial 101 finished with value: 11.0 and parameters: {'hidden_dim': 20, 'batch_size': 500, 'gamma': 0.1, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.1, 'target_update_period': 5, 'grad_clip': 0.29999999999999993}. Best is trial 48 with value: 501.0.
+2021-07-16 18:44:12,046 The parameter 'target_update_period' in trial#102 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 18:44:16,729 ------------------------------------------------------------------------------
+2021-07-16 18:44:16,730 Final task score = 9.0
+2021-07-16 18:44:16,736 Trial 102 finished with value: 9.0 and parameters: {'hidden_dim': 20, 'batch_size': 500, 'gamma': 0.9899999999999999, 'epsilon_end': 0.0001, 'epsilon_decay': 0.1, 'target_update_period': 10, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 18:44:58,571 ------------------------------------------------------------------------------
+2021-07-16 18:44:58,571 Final task score = 169.0
+2021-07-16 18:44:58,608 Trial 103 finished with value: 169.0 and parameters: {'hidden_dim': 200, 'batch_size': 359, 'gamma': 0.9899999999999999, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 5, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 18:45:01,038 The parameter 'target_update_period' in trial#104 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 18:45:17,361 ------------------------------------------------------------------------------
+2021-07-16 18:45:17,361 Final task score = 135.0
+2021-07-16 18:45:17,393 Trial 104 finished with value: 135.0 and parameters: {'hidden_dim': 200, 'batch_size': 50, 'gamma': 0.9899999999999999, 'epsilon_end': 0.0001, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 35, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 18:45:31,048 ------------------------------------------------------------------------------
+2021-07-16 18:45:31,048 Final task score = 37.0
+2021-07-16 18:45:31,059 Trial 105 finished with value: 37.0 and parameters: {'hidden_dim': 20, 'batch_size': 500, 'gamma': 0.1, 'epsilon_end': 0.0001, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 5, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 18:45:36,857 ------------------------------------------------------------------------------
+2021-07-16 18:45:36,857 Final task score = 10.0
+2021-07-16 18:45:36,863 Trial 106 finished with value: 10.0 and parameters: {'hidden_dim': 20, 'batch_size': 500, 'gamma': 0.1, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.1, 'target_update_period': 5, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 18:45:54,350 ------------------------------------------------------------------------------
+2021-07-16 18:45:54,350 Final task score = 38.0
+2021-07-16 18:45:54,364 Trial 107 finished with value: 38.0 and parameters: {'hidden_dim': 20, 'batch_size': 500, 'gamma': 0.1, 'epsilon_end': 0.0001, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 5, 'grad_clip': 0.29999999999999993}. Best is trial 48 with value: 501.0.
+2021-07-16 18:45:56,484 The parameter 'target_update_period' in trial#108 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 18:46:00,911 ------------------------------------------------------------------------------
+2021-07-16 18:46:00,911 Final task score = 10.0
+2021-07-16 18:46:00,916 Trial 108 finished with value: 10.0 and parameters: {'hidden_dim': 200, 'batch_size': 466, 'gamma': 0.1, 'epsilon_end': 0.0001, 'epsilon_decay': 0.1, 'target_update_period': 36, 'grad_clip': 0.29999999999999993}. Best is trial 48 with value: 501.0.
+2021-07-16 18:46:03,052 The parameter 'target_update_period' in trial#109 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 18:46:07,383 ------------------------------------------------------------------------------
+2021-07-16 18:46:07,383 Final task score = 14.0
+2021-07-16 18:46:07,389 Trial 109 finished with value: 14.0 and parameters: {'hidden_dim': 20, 'batch_size': 500, 'gamma': 0.1, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.1, 'target_update_period': 30, 'grad_clip': 0.29999999999999993}. Best is trial 48 with value: 501.0.
+2021-07-16 18:46:09,577 The parameter 'target_update_period' in trial#110 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 18:46:12,335 ------------------------------------------------------------------------------
+2021-07-16 18:46:12,336 Final task score = 16.0
+2021-07-16 18:46:12,341 Trial 110 finished with value: 16.0 and parameters: {'hidden_dim': 20, 'batch_size': 55, 'gamma': 0.1, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.1, 'target_update_period': 25, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 18:46:38,639 ------------------------------------------------------------------------------
+2021-07-16 18:46:38,639 Final task score = 100.0
+2021-07-16 18:46:38,661 Trial 111 finished with value: 100.0 and parameters: {'hidden_dim': 200, 'batch_size': 459, 'gamma': 0.9899999999999999, 'epsilon_end': 0.0001, 'epsilon_decay': 0.1, 'target_update_period': 5, 'grad_clip': 0.29999999999999993}. Best is trial 48 with value: 501.0.
+2021-07-16 18:46:44,996 ------------------------------------------------------------------------------
+2021-07-16 18:46:44,996 Final task score = 15.0
+2021-07-16 18:46:45,003 Trial 112 finished with value: 15.0 and parameters: {'hidden_dim': 168, 'batch_size': 102, 'gamma': 0.1, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.1, 'target_update_period': 5, 'grad_clip': 0.29999999999999993}. Best is trial 48 with value: 501.0.
+2021-07-16 18:46:47,212 The parameter 'target_update_period' in trial#113 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 18:46:53,043 ------------------------------------------------------------------------------
+2021-07-16 18:46:53,043 Final task score = 15.0
+2021-07-16 18:46:53,050 Trial 113 finished with value: 15.0 and parameters: {'hidden_dim': 200, 'batch_size': 416, 'gamma': 0.1, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.1, 'target_update_period': 37, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 18:46:55,276 The parameter 'target_update_period' in trial#114 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 18:47:06,855 ------------------------------------------------------------------------------
+2021-07-16 18:47:06,855 Final task score = 22.0
+2021-07-16 18:47:06,867 Trial 114 finished with value: 22.0 and parameters: {'hidden_dim': 200, 'batch_size': 433, 'gamma': 0.1, 'epsilon_end': 0.0001, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 11, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 18:47:15,406 ------------------------------------------------------------------------------
+2021-07-16 18:47:15,406 Final task score = 21.0
+2021-07-16 18:47:15,414 Trial 115 finished with value: 21.0 and parameters: {'hidden_dim': 200, 'batch_size': 186, 'gamma': 0.1, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.1, 'target_update_period': 5, 'grad_clip': 0.29999999999999993}. Best is trial 48 with value: 501.0.
+2021-07-16 18:47:21,364 ------------------------------------------------------------------------------
+2021-07-16 18:47:21,365 Final task score = 18.0
+2021-07-16 18:47:21,372 Trial 116 finished with value: 18.0 and parameters: {'hidden_dim': 20, 'batch_size': 50, 'gamma': 0.1, 'epsilon_end': 0.0001, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 5, 'grad_clip': 0.29999999999999993}. Best is trial 48 with value: 501.0.
+2021-07-16 18:47:53,653 ------------------------------------------------------------------------------
+2021-07-16 18:47:53,653 Final task score = 76.0
+2021-07-16 18:47:53,677 Trial 117 finished with value: 76.0 and parameters: {'hidden_dim': 200, 'batch_size': 500, 'gamma': 0.9899999999999999, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 5, 'grad_clip': 0.29999999999999993}. Best is trial 48 with value: 501.0.
+2021-07-16 18:48:01,660 ------------------------------------------------------------------------------
+2021-07-16 18:48:01,660 Final task score = 18.0
+2021-07-16 18:48:01,668 Trial 118 finished with value: 18.0 and parameters: {'hidden_dim': 20, 'batch_size': 500, 'gamma': 0.9899999999999999, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 5, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 18:48:09,304 ------------------------------------------------------------------------------
+2021-07-16 18:48:09,304 Final task score = 29.0
+2021-07-16 18:48:09,311 Trial 119 finished with value: 29.0 and parameters: {'hidden_dim': 20, 'batch_size': 500, 'gamma': 0.9899999999999999, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 5, 'grad_clip': 0.29999999999999993}. Best is trial 48 with value: 501.0.
+2021-07-16 18:48:11,665 The parameter 'target_update_period' in trial#120 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 18:48:15,322 ------------------------------------------------------------------------------
+2021-07-16 18:48:15,322 Final task score = 10.0
+2021-07-16 18:48:15,327 Trial 120 finished with value: 10.0 and parameters: {'hidden_dim': 20, 'batch_size': 500, 'gamma': 0.1, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.1, 'target_update_period': 37, 'grad_clip': 0.29999999999999993}. Best is trial 48 with value: 501.0.
+2021-07-16 18:48:17,656 The parameter 'target_update_period' in trial#121 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 18:50:27,882 ------------------------------------------------------------------------------
+2021-07-16 18:50:27,882 Final task score = 501.0
+2021-07-16 18:50:27,986 Trial 121 finished with value: 501.0 and parameters: {'hidden_dim': 200, 'batch_size': 500, 'gamma': 0.9899999999999999, 'epsilon_end': 0.0001, 'epsilon_decay': 0.1, 'target_update_period': 21, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 18:50:40,377 ------------------------------------------------------------------------------
+2021-07-16 18:50:40,378 Final task score = 23.0
+2021-07-16 18:50:40,390 Trial 122 finished with value: 23.0 and parameters: {'hidden_dim': 200, 'batch_size': 164, 'gamma': 0.1, 'epsilon_end': 0.0001, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 5, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 18:51:06,353 ------------------------------------------------------------------------------
+2021-07-16 18:51:06,353 Final task score = 133.0
+2021-07-16 18:51:06,387 Trial 123 finished with value: 133.0 and parameters: {'hidden_dim': 144, 'batch_size': 50, 'gamma': 0.9899999999999999, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 5, 'grad_clip': 0.29999999999999993}. Best is trial 48 with value: 501.0.
+2021-07-16 18:51:09,079 The parameter 'target_update_period' in trial#124 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 18:51:47,799 ------------------------------------------------------------------------------
+2021-07-16 18:51:47,799 Final task score = 153.0
+2021-07-16 18:51:47,834 Trial 124 finished with value: 153.0 and parameters: {'hidden_dim': 122, 'batch_size': 388, 'gamma': 0.9899999999999999, 'epsilon_end': 0.0001, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 20, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 18:51:50,426 The parameter 'target_update_period' in trial#125 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 18:52:42,032 ------------------------------------------------------------------------------
+2021-07-16 18:52:42,032 Final task score = 191.0
+2021-07-16 18:52:42,078 Trial 125 finished with value: 191.0 and parameters: {'hidden_dim': 20, 'batch_size': 500, 'gamma': 0.9899999999999999, 'epsilon_end': 0.0001, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 8, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 18:52:44,542 The parameter 'target_update_period' in trial#126 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 18:52:52,333 ------------------------------------------------------------------------------
+2021-07-16 18:52:52,333 Final task score = 17.0
+2021-07-16 18:52:52,342 Trial 126 finished with value: 17.0 and parameters: {'hidden_dim': 200, 'batch_size': 472, 'gamma': 0.1, 'epsilon_end': 0.0001, 'epsilon_decay': 0.1, 'target_update_period': 47, 'grad_clip': 0.29999999999999993}. Best is trial 48 with value: 501.0.
+2021-07-16 18:52:54,836 The parameter 'target_update_period' in trial#127 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 18:52:59,678 ------------------------------------------------------------------------------
+2021-07-16 18:52:59,678 Final task score = 13.0
+2021-07-16 18:52:59,685 Trial 127 finished with value: 13.0 and parameters: {'hidden_dim': 70, 'batch_size': 424, 'gamma': 0.1, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.1, 'target_update_period': 35, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 18:53:02,423 The parameter 'target_update_period' in trial#128 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 18:53:12,133 ------------------------------------------------------------------------------
+2021-07-16 18:53:12,133 Final task score = 30.0
+2021-07-16 18:53:12,144 Trial 128 finished with value: 30.0 and parameters: {'hidden_dim': 20, 'batch_size': 500, 'gamma': 0.1, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.1, 'target_update_period': 38, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 18:53:18,686 ------------------------------------------------------------------------------
+2021-07-16 18:53:18,686 Final task score = 19.0
+2021-07-16 18:53:18,693 Trial 129 finished with value: 19.0 and parameters: {'hidden_dim': 20, 'batch_size': 50, 'gamma': 0.9899999999999999, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 5, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 18:53:21,312 The parameter 'target_update_period' in trial#130 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 18:53:26,435 ------------------------------------------------------------------------------
+2021-07-16 18:53:26,435 Final task score = 18.0
+2021-07-16 18:53:26,442 Trial 130 finished with value: 18.0 and parameters: {'hidden_dim': 58, 'batch_size': 319, 'gamma': 0.1, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.1, 'target_update_period': 32, 'grad_clip': 0.29999999999999993}. Best is trial 48 with value: 501.0.
+2021-07-16 18:53:59,611 ------------------------------------------------------------------------------
+2021-07-16 18:53:59,611 Final task score = 115.0
+2021-07-16 18:53:59,634 Trial 131 finished with value: 115.0 and parameters: {'hidden_dim': 200, 'batch_size': 474, 'gamma': 0.9899999999999999, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.1, 'target_update_period': 5, 'grad_clip': 0.29999999999999993}. Best is trial 48 with value: 501.0.
+2021-07-16 18:54:08,394 ------------------------------------------------------------------------------
+2021-07-16 18:54:08,394 Final task score = 21.0
+2021-07-16 18:54:08,401 Trial 132 finished with value: 21.0 and parameters: {'hidden_dim': 31, 'batch_size': 500, 'gamma': 0.9899999999999999, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 5, 'grad_clip': 0.29999999999999993}. Best is trial 48 with value: 501.0.
+2021-07-16 18:54:11,051 The parameter 'target_update_period' in trial#133 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 18:54:15,623 ------------------------------------------------------------------------------
+2021-07-16 18:54:15,623 Final task score = 15.0
+2021-07-16 18:54:15,629 Trial 133 finished with value: 15.0 and parameters: {'hidden_dim': 20, 'batch_size': 500, 'gamma': 0.1, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.1, 'target_update_period': 34, 'grad_clip': 0.29999999999999993}. Best is trial 48 with value: 501.0.
+2021-07-16 18:54:36,263 ------------------------------------------------------------------------------
+2021-07-16 18:54:36,264 Final task score = 30.0
+2021-07-16 18:54:36,281 Trial 134 finished with value: 30.0 and parameters: {'hidden_dim': 200, 'batch_size': 408, 'gamma': 0.1, 'epsilon_end': 0.0001, 'epsilon_decay': 0.1, 'target_update_period': 5, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 18:54:52,195 ------------------------------------------------------------------------------
+2021-07-16 18:54:52,195 Final task score = 28.0
+2021-07-16 18:54:52,215 Trial 135 finished with value: 28.0 and parameters: {'hidden_dim': 83, 'batch_size': 477, 'gamma': 0.1, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.1, 'target_update_period': 5, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 18:55:30,622 ------------------------------------------------------------------------------
+2021-07-16 18:55:30,622 Final task score = 230.0
+2021-07-16 18:55:30,654 Trial 136 finished with value: 230.0 and parameters: {'hidden_dim': 20, 'batch_size': 500, 'gamma': 0.9899999999999999, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 5, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 18:55:33,313 The parameter 'target_update_period' in trial#137 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 18:55:49,511 ------------------------------------------------------------------------------
+2021-07-16 18:55:49,511 Final task score = 26.0
+2021-07-16 18:55:49,525 Trial 137 finished with value: 26.0 and parameters: {'hidden_dim': 200, 'batch_size': 407, 'gamma': 0.1, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.1, 'target_update_period': 43, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 18:56:05,831 ------------------------------------------------------------------------------
+2021-07-16 18:56:05,832 Final task score = 66.0
+2021-07-16 18:56:05,855 Trial 138 finished with value: 66.0 and parameters: {'hidden_dim': 20, 'batch_size': 473, 'gamma': 0.1, 'epsilon_end': 0.0001, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 5, 'grad_clip': 0.29999999999999993}. Best is trial 48 with value: 501.0.
+2021-07-16 18:56:08,904 The parameter 'target_update_period' in trial#139 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 18:56:20,883 ------------------------------------------------------------------------------
+2021-07-16 18:56:20,883 Final task score = 32.0
+2021-07-16 18:56:20,896 Trial 139 finished with value: 32.0 and parameters: {'hidden_dim': 20, 'batch_size': 500, 'gamma': 0.1, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.1, 'target_update_period': 25, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 18:56:33,284 ------------------------------------------------------------------------------
+2021-07-16 18:56:33,285 Final task score = 24.0
+2021-07-16 18:56:33,297 Trial 140 finished with value: 24.0 and parameters: {'hidden_dim': 20, 'batch_size': 377, 'gamma': 0.1, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 5, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 18:56:36,205 The parameter 'target_update_period' in trial#141 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 18:57:34,629 ------------------------------------------------------------------------------
+2021-07-16 18:57:34,629 Final task score = 222.0
+2021-07-16 18:57:34,686 Trial 141 finished with value: 222.0 and parameters: {'hidden_dim': 200, 'batch_size': 500, 'gamma': 0.9899999999999999, 'epsilon_end': 0.0001, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 18, 'grad_clip': 0.29999999999999993}. Best is trial 48 with value: 501.0.
+2021-07-16 18:57:47,809 ------------------------------------------------------------------------------
+2021-07-16 18:57:47,810 Final task score = 18.0
+2021-07-16 18:57:47,819 Trial 142 finished with value: 18.0 and parameters: {'hidden_dim': 200, 'batch_size': 500, 'gamma': 0.1, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.1, 'target_update_period': 5, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 18:58:25,103 ------------------------------------------------------------------------------
+2021-07-16 18:58:25,103 Final task score = 282.0
+2021-07-16 18:58:25,150 Trial 143 finished with value: 282.0 and parameters: {'hidden_dim': 200, 'batch_size': 100, 'gamma': 0.9899999999999999, 'epsilon_end': 0.0001, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 5, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 18:58:28,071 The parameter 'target_update_period' in trial#144 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 18:58:54,219 ------------------------------------------------------------------------------
+2021-07-16 18:58:54,219 Final task score = 104.0
+2021-07-16 18:58:54,246 Trial 144 finished with value: 104.0 and parameters: {'hidden_dim': 20, 'batch_size': 500, 'gamma': 0.9899999999999999, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 38, 'grad_clip': 0.29999999999999993}. Best is trial 48 with value: 501.0.
+2021-07-16 18:59:00,994 ------------------------------------------------------------------------------
+2021-07-16 18:59:00,994 Final task score = 41.0
+2021-07-16 18:59:01,000 Trial 145 finished with value: 41.0 and parameters: {'hidden_dim': 20, 'batch_size': 201, 'gamma': 0.9899999999999999, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 5, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 18:59:09,549 ------------------------------------------------------------------------------
+2021-07-16 18:59:09,549 Final task score = 24.0
+2021-07-16 18:59:09,559 Trial 146 finished with value: 24.0 and parameters: {'hidden_dim': 25, 'batch_size': 261, 'gamma': 0.1, 'epsilon_end': 0.0001, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 5, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 18:59:12,455 The parameter 'target_update_period' in trial#147 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 18:59:19,362 ------------------------------------------------------------------------------
+2021-07-16 18:59:19,362 Final task score = 18.0
+2021-07-16 18:59:19,372 Trial 147 finished with value: 18.0 and parameters: {'hidden_dim': 200, 'batch_size': 179, 'gamma': 0.1, 'epsilon_end': 0.0001, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 16, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 18:59:22,260 The parameter 'target_update_period' in trial#148 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 18:59:32,714 ------------------------------------------------------------------------------
+2021-07-16 18:59:32,714 Final task score = 90.0
+2021-07-16 18:59:32,727 Trial 148 finished with value: 90.0 and parameters: {'hidden_dim': 200, 'batch_size': 221, 'gamma': 0.9899999999999999, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.1, 'target_update_period': 40, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 18:59:35,624 The parameter 'target_update_period' in trial#149 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 18:59:56,432 ------------------------------------------------------------------------------
+2021-07-16 18:59:56,432 Final task score = 149.0
+2021-07-16 18:59:56,459 Trial 149 finished with value: 149.0 and parameters: {'hidden_dim': 121, 'batch_size': 251, 'gamma': 0.9899999999999999, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.1, 'target_update_period': 32, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 18:59:59,685 The parameter 'target_update_period' in trial#150 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 19:00:21,087 ------------------------------------------------------------------------------
+2021-07-16 19:00:21,087 Final task score = 123.0
+2021-07-16 19:00:21,116 Trial 150 finished with value: 123.0 and parameters: {'hidden_dim': 110, 'batch_size': 360, 'gamma': 0.9899999999999999, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.1, 'target_update_period': 18, 'grad_clip': 0.29999999999999993}. Best is trial 48 with value: 501.0.
+2021-07-16 19:00:31,743 ------------------------------------------------------------------------------
+2021-07-16 19:00:31,743 Final task score = 32.0
+2021-07-16 19:00:31,753 Trial 151 finished with value: 32.0 and parameters: {'hidden_dim': 61, 'batch_size': 252, 'gamma': 0.1, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 5, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 19:00:34,746 The parameter 'target_update_period' in trial#152 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 19:00:39,450 ------------------------------------------------------------------------------
+2021-07-16 19:00:39,450 Final task score = 11.0
+2021-07-16 19:00:39,457 Trial 152 finished with value: 11.0 and parameters: {'hidden_dim': 20, 'batch_size': 454, 'gamma': 0.1, 'epsilon_end': 0.0001, 'epsilon_decay': 0.1, 'target_update_period': 36, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 19:00:47,853 ------------------------------------------------------------------------------
+2021-07-16 19:00:47,853 Final task score = 12.0
+2021-07-16 19:00:47,860 Trial 153 finished with value: 12.0 and parameters: {'hidden_dim': 138, 'batch_size': 409, 'gamma': 0.1, 'epsilon_end': 0.0001, 'epsilon_decay': 0.1, 'target_update_period': 5, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 19:01:00,357 ------------------------------------------------------------------------------
+2021-07-16 19:01:00,357 Final task score = 45.0
+2021-07-16 19:01:00,373 Trial 154 finished with value: 45.0 and parameters: {'hidden_dim': 77, 'batch_size': 252, 'gamma': 0.1, 'epsilon_end': 0.0001, 'epsilon_decay': 0.1, 'target_update_period': 5, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 19:01:03,482 The parameter 'target_update_period' in trial#155 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 19:01:44,762 ------------------------------------------------------------------------------
+2021-07-16 19:01:44,762 Final task score = 188.0
+2021-07-16 19:01:44,828 Trial 155 finished with value: 188.0 and parameters: {'hidden_dim': 119, 'batch_size': 281, 'gamma': 0.9899999999999999, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 27, 'grad_clip': 0.29999999999999993}. Best is trial 48 with value: 501.0.
+2021-07-16 19:01:53,798 ------------------------------------------------------------------------------
+2021-07-16 19:01:53,799 Final task score = 15.0
+2021-07-16 19:01:53,805 Trial 156 finished with value: 15.0 and parameters: {'hidden_dim': 200, 'batch_size': 187, 'gamma': 0.1, 'epsilon_end': 0.0001, 'epsilon_decay': 0.1, 'target_update_period': 5, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 19:02:01,263 ------------------------------------------------------------------------------
+2021-07-16 19:02:01,263 Final task score = 18.0
+2021-07-16 19:02:01,270 Trial 157 finished with value: 18.0 and parameters: {'hidden_dim': 20, 'batch_size': 299, 'gamma': 0.9899999999999999, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.1, 'target_update_period': 5, 'grad_clip': 0.29999999999999993}. Best is trial 48 with value: 501.0.
+2021-07-16 19:02:07,528 ------------------------------------------------------------------------------
+2021-07-16 19:02:07,528 Final task score = 10.0
+2021-07-16 19:02:07,534 Trial 158 finished with value: 10.0 and parameters: {'hidden_dim': 91, 'batch_size': 123, 'gamma': 0.9899999999999999, 'epsilon_end': 0.0001, 'epsilon_decay': 0.1, 'target_update_period': 5, 'grad_clip': 0.29999999999999993}. Best is trial 48 with value: 501.0.
+2021-07-16 19:02:10,680 The parameter 'target_update_period' in trial#159 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 19:02:15,914 ------------------------------------------------------------------------------
+2021-07-16 19:02:15,914 Final task score = 10.0
+2021-07-16 19:02:15,920 Trial 159 finished with value: 10.0 and parameters: {'hidden_dim': 141, 'batch_size': 376, 'gamma': 0.1, 'epsilon_end': 0.0001, 'epsilon_decay': 0.1, 'target_update_period': 29, 'grad_clip': 0.29999999999999993}. Best is trial 48 with value: 501.0.
+2021-07-16 19:02:22,838 ------------------------------------------------------------------------------
+2021-07-16 19:02:22,839 Final task score = 10.0
+2021-07-16 19:02:22,844 Trial 160 finished with value: 10.0 and parameters: {'hidden_dim': 20, 'batch_size': 242, 'gamma': 0.9899999999999999, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.1, 'target_update_period': 5, 'grad_clip': 0.29999999999999993}. Best is trial 48 with value: 501.0.
+2021-07-16 19:02:26,163 The parameter 'target_update_period' in trial#161 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 19:02:34,640 ------------------------------------------------------------------------------
+2021-07-16 19:02:34,640 Final task score = 19.0
+2021-07-16 19:02:34,649 Trial 161 finished with value: 19.0 and parameters: {'hidden_dim': 200, 'batch_size': 352, 'gamma': 0.1, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.1, 'target_update_period': 15, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 19:02:43,481 ------------------------------------------------------------------------------
+2021-07-16 19:02:43,482 Final task score = 19.0
+2021-07-16 19:02:43,489 Trial 162 finished with value: 19.0 and parameters: {'hidden_dim': 20, 'batch_size': 312, 'gamma': 0.9899999999999999, 'epsilon_end': 0.0001, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 5, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 19:02:46,731 The parameter 'target_update_period' in trial#163 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 19:02:50,743 ------------------------------------------------------------------------------
+2021-07-16 19:02:50,743 Final task score = 9.0
+2021-07-16 19:02:50,748 Trial 163 finished with value: 9.0 and parameters: {'hidden_dim': 179, 'batch_size': 306, 'gamma': 0.9899999999999999, 'epsilon_end': 0.0001, 'epsilon_decay': 0.1, 'target_update_period': 50, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 19:02:53,966 The parameter 'target_update_period' in trial#164 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 19:02:57,061 ------------------------------------------------------------------------------
+2021-07-16 19:02:57,061 Final task score = 10.0
+2021-07-16 19:02:57,066 Trial 164 finished with value: 10.0 and parameters: {'hidden_dim': 110, 'batch_size': 243, 'gamma': 0.1, 'epsilon_end': 0.0001, 'epsilon_decay': 0.1, 'target_update_period': 16, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 19:03:04,051 ------------------------------------------------------------------------------
+2021-07-16 19:03:04,051 Final task score = 12.0
+2021-07-16 19:03:04,057 Trial 165 finished with value: 12.0 and parameters: {'hidden_dim': 29, 'batch_size': 314, 'gamma': 0.1, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.1, 'target_update_period': 5, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 19:03:07,320 The parameter 'target_update_period' in trial#166 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 19:03:46,744 ------------------------------------------------------------------------------
+2021-07-16 19:03:46,744 Final task score = 232.0
+2021-07-16 19:03:46,794 Trial 166 finished with value: 232.0 and parameters: {'hidden_dim': 37, 'batch_size': 280, 'gamma': 0.9899999999999999, 'epsilon_end': 0.0001, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 29, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 19:03:50,075 The parameter 'target_update_period' in trial#167 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 19:03:53,531 ------------------------------------------------------------------------------
+2021-07-16 19:03:53,531 Final task score = 10.0
+2021-07-16 19:03:53,536 Trial 167 finished with value: 10.0 and parameters: {'hidden_dim': 20, 'batch_size': 438, 'gamma': 0.9899999999999999, 'epsilon_end': 0.0001, 'epsilon_decay': 0.1, 'target_update_period': 45, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 19:04:28,260 ------------------------------------------------------------------------------
+2021-07-16 19:04:28,260 Final task score = 127.0
+2021-07-16 19:04:28,296 Trial 168 finished with value: 127.0 and parameters: {'hidden_dim': 61, 'batch_size': 352, 'gamma': 0.9899999999999999, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 5, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 19:04:31,604 The parameter 'target_update_period' in trial#169 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 19:04:36,530 ------------------------------------------------------------------------------
+2021-07-16 19:04:36,530 Final task score = 15.0
+2021-07-16 19:04:36,538 Trial 169 finished with value: 15.0 and parameters: {'hidden_dim': 128, 'batch_size': 188, 'gamma': 0.1, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.1, 'target_update_period': 33, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 19:04:39,872 The parameter 'target_update_period' in trial#170 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 19:04:47,447 ------------------------------------------------------------------------------
+2021-07-16 19:04:47,447 Final task score = 86.0
+2021-07-16 19:04:47,457 Trial 170 finished with value: 86.0 and parameters: {'hidden_dim': 138, 'batch_size': 289, 'gamma': 0.9899999999999999, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.1, 'target_update_period': 47, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 19:04:50,810 The parameter 'target_update_period' in trial#171 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 19:05:00,340 ------------------------------------------------------------------------------
+2021-07-16 19:05:00,340 Final task score = 22.0
+2021-07-16 19:05:00,350 Trial 171 finished with value: 22.0 and parameters: {'hidden_dim': 190, 'batch_size': 363, 'gamma': 0.1, 'epsilon_end': 0.0001, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 24, 'grad_clip': 0.29999999999999993}. Best is trial 48 with value: 501.0.
+2021-07-16 19:05:07,175 ------------------------------------------------------------------------------
+2021-07-16 19:05:07,175 Final task score = 10.0
+2021-07-16 19:05:07,181 Trial 172 finished with value: 10.0 and parameters: {'hidden_dim': 20, 'batch_size': 405, 'gamma': 0.9899999999999999, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.1, 'target_update_period': 5, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 19:05:18,119 ------------------------------------------------------------------------------
+2021-07-16 19:05:18,120 Final task score = 24.0
+2021-07-16 19:05:18,128 Trial 173 finished with value: 24.0 and parameters: {'hidden_dim': 200, 'batch_size': 235, 'gamma': 0.1, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 5, 'grad_clip': 0.29999999999999993}. Best is trial 48 with value: 501.0.
+2021-07-16 19:05:27,038 ------------------------------------------------------------------------------
+2021-07-16 19:05:27,038 Final task score = 32.0
+2021-07-16 19:05:27,045 Trial 174 finished with value: 32.0 and parameters: {'hidden_dim': 140, 'batch_size': 275, 'gamma': 0.9899999999999999, 'epsilon_end': 0.0001, 'epsilon_decay': 0.1, 'target_update_period': 5, 'grad_clip': 0.29999999999999993}. Best is trial 48 with value: 501.0.
+2021-07-16 19:05:33,571 ------------------------------------------------------------------------------
+2021-07-16 19:05:33,571 Final task score = 10.0
+2021-07-16 19:05:33,576 Trial 175 finished with value: 10.0 and parameters: {'hidden_dim': 49, 'batch_size': 276, 'gamma': 0.9899999999999999, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.1, 'target_update_period': 5, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 19:05:37,007 The parameter 'target_update_period' in trial#176 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 19:05:42,995 ------------------------------------------------------------------------------
+2021-07-16 19:05:42,995 Final task score = 21.0
+2021-07-16 19:05:43,004 Trial 176 finished with value: 21.0 and parameters: {'hidden_dim': 20, 'batch_size': 335, 'gamma': 0.1, 'epsilon_end': 0.0001, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 20, 'grad_clip': 0.29999999999999993}. Best is trial 48 with value: 501.0.
+2021-07-16 19:05:55,921 ------------------------------------------------------------------------------
+2021-07-16 19:05:55,921 Final task score = 27.0
+2021-07-16 19:05:55,935 Trial 177 finished with value: 27.0 and parameters: {'hidden_dim': 20, 'batch_size': 302, 'gamma': 0.1, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 5, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 19:06:25,452 ------------------------------------------------------------------------------
+2021-07-16 19:06:25,453 Final task score = 143.0
+2021-07-16 19:06:25,483 Trial 178 finished with value: 143.0 and parameters: {'hidden_dim': 86, 'batch_size': 345, 'gamma': 0.9899999999999999, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 5, 'grad_clip': 0.29999999999999993}. Best is trial 48 with value: 501.0.
+2021-07-16 19:06:32,137 ------------------------------------------------------------------------------
+2021-07-16 19:06:32,138 Final task score = 10.0
+2021-07-16 19:06:32,143 Trial 179 finished with value: 10.0 and parameters: {'hidden_dim': 76, 'batch_size': 257, 'gamma': 0.1, 'epsilon_end': 0.0001, 'epsilon_decay': 0.1, 'target_update_period': 5, 'grad_clip': 0.29999999999999993}. Best is trial 48 with value: 501.0.
+2021-07-16 19:07:00,667 ------------------------------------------------------------------------------
+2021-07-16 19:07:00,668 Final task score = 122.0
+2021-07-16 19:07:00,696 Trial 180 finished with value: 122.0 and parameters: {'hidden_dim': 124, 'batch_size': 309, 'gamma': 0.9899999999999999, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.1, 'target_update_period': 5, 'grad_clip': 0.29999999999999993}. Best is trial 48 with value: 501.0.
+2021-07-16 19:07:13,389 ------------------------------------------------------------------------------
+2021-07-16 19:07:13,389 Final task score = 31.0
+2021-07-16 19:07:13,399 Trial 181 finished with value: 31.0 and parameters: {'hidden_dim': 100, 'batch_size': 371, 'gamma': 0.1, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 5, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 19:07:25,065 ------------------------------------------------------------------------------
+2021-07-16 19:07:25,065 Final task score = 20.0
+2021-07-16 19:07:25,075 Trial 182 finished with value: 20.0 and parameters: {'hidden_dim': 147, 'batch_size': 276, 'gamma': 0.1, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 5, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 19:07:35,970 ------------------------------------------------------------------------------
+2021-07-16 19:07:35,970 Final task score = 34.0
+2021-07-16 19:07:35,980 Trial 183 finished with value: 34.0 and parameters: {'hidden_dim': 110, 'batch_size': 311, 'gamma': 0.9899999999999999, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.1, 'target_update_period': 5, 'grad_clip': 0.29999999999999993}. Best is trial 48 with value: 501.0.
+2021-07-16 19:07:39,570 The parameter 'target_update_period' in trial#184 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 19:07:44,133 ------------------------------------------------------------------------------
+2021-07-16 19:07:44,133 Final task score = 11.0
+2021-07-16 19:07:44,140 Trial 184 finished with value: 11.0 and parameters: {'hidden_dim': 132, 'batch_size': 376, 'gamma': 0.1, 'epsilon_end': 0.0001, 'epsilon_decay': 0.1, 'target_update_period': 10, 'grad_clip': 0.29999999999999993}. Best is trial 48 with value: 501.0.
+2021-07-16 19:07:47,669 The parameter 'target_update_period' in trial#185 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 19:07:51,012 ------------------------------------------------------------------------------
+2021-07-16 19:07:51,012 Final task score = 10.0
+2021-07-16 19:07:51,018 Trial 185 finished with value: 10.0 and parameters: {'hidden_dim': 32, 'batch_size': 399, 'gamma': 0.9899999999999999, 'epsilon_end': 0.0001, 'epsilon_decay': 0.1, 'target_update_period': 29, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 19:07:54,617 The parameter 'target_update_period' in trial#186 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 19:08:32,068 ------------------------------------------------------------------------------
+2021-07-16 19:08:32,068 Final task score = 501.0
+2021-07-16 19:08:32,108 Trial 186 finished with value: 501.0 and parameters: {'hidden_dim': 188, 'batch_size': 305, 'gamma': 0.9899999999999999, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.1, 'target_update_period': 13, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 19:08:35,705 The parameter 'target_update_period' in trial#187 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 19:09:03,816 ------------------------------------------------------------------------------
+2021-07-16 19:09:03,816 Final task score = 133.0
+2021-07-16 19:09:03,848 Trial 187 finished with value: 133.0 and parameters: {'hidden_dim': 46, 'batch_size': 373, 'gamma': 0.9899999999999999, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 17, 'grad_clip': 0.29999999999999993}. Best is trial 48 with value: 501.0.
+2021-07-16 19:09:14,563 ------------------------------------------------------------------------------
+2021-07-16 19:09:14,563 Final task score = 25.0
+2021-07-16 19:09:14,573 Trial 188 finished with value: 25.0 and parameters: {'hidden_dim': 26, 'batch_size': 330, 'gamma': 0.1, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 5, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 19:09:29,261 ------------------------------------------------------------------------------
+2021-07-16 19:09:29,262 Final task score = 25.0
+2021-07-16 19:09:29,274 Trial 189 finished with value: 25.0 and parameters: {'hidden_dim': 185, 'batch_size': 310, 'gamma': 0.1, 'epsilon_end': 0.0001, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 5, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 19:09:33,140 The parameter 'target_update_period' in trial#190 is sampled independently by using `RandomSampler` instead of `CmaEsSampler` (optimization performance may be degraded). `CmaEsSampler` does not support dynamic search space or `CategoricalDistribution`. You can suppress this warning by setting `warn_independent_sampling` to `False` in the constructor of `CmaEsSampler`, if this independent sampling is intended behavior.
+2021-07-16 19:09:37,177 ------------------------------------------------------------------------------
+2021-07-16 19:09:37,178 Final task score = 10.0
+2021-07-16 19:09:37,183 Trial 190 finished with value: 10.0 and parameters: {'hidden_dim': 197, 'batch_size': 342, 'gamma': 0.9899999999999999, 'epsilon_end': 0.0001, 'epsilon_decay': 0.1, 'target_update_period': 15, 'grad_clip': 0.29999999999999993}. Best is trial 48 with value: 501.0.
+2021-07-16 19:09:50,978 ------------------------------------------------------------------------------
+2021-07-16 19:09:50,978 Final task score = 24.0
+2021-07-16 19:09:50,988 Trial 191 finished with value: 24.0 and parameters: {'hidden_dim': 200, 'batch_size': 305, 'gamma': 0.1, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 5, 'grad_clip': 0.29999999999999993}. Best is trial 48 with value: 501.0.
+2021-07-16 19:10:01,397 ------------------------------------------------------------------------------
+2021-07-16 19:10:01,397 Final task score = 26.0
+2021-07-16 19:10:01,407 Trial 192 finished with value: 26.0 and parameters: {'hidden_dim': 73, 'batch_size': 332, 'gamma': 0.1, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 5, 'grad_clip': 0.29999999999999993}. Best is trial 48 with value: 501.0.
+2021-07-16 19:10:17,696 ------------------------------------------------------------------------------
+2021-07-16 19:10:17,697 Final task score = 44.0
+2021-07-16 19:10:17,711 Trial 193 finished with value: 44.0 and parameters: {'hidden_dim': 200, 'batch_size': 303, 'gamma': 0.1, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.1, 'target_update_period': 5, 'grad_clip': 0.29999999999999993}. Best is trial 48 with value: 501.0.
+2021-07-16 19:10:26,766 ------------------------------------------------------------------------------
+2021-07-16 19:10:26,766 Final task score = 13.0
+2021-07-16 19:10:26,772 Trial 194 finished with value: 13.0 and parameters: {'hidden_dim': 181, 'batch_size': 310, 'gamma': 0.1, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.1, 'target_update_period': 5, 'grad_clip': 0.29999999999999993}. Best is trial 48 with value: 501.0.
+2021-07-16 19:10:56,724 ------------------------------------------------------------------------------
+2021-07-16 19:10:56,725 Final task score = 123.0
+2021-07-16 19:10:56,752 Trial 195 finished with value: 123.0 and parameters: {'hidden_dim': 143, 'batch_size': 328, 'gamma': 0.9899999999999999, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.1, 'target_update_period': 5, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 19:11:09,368 ------------------------------------------------------------------------------
+2021-07-16 19:11:09,368 Final task score = 26.0
+2021-07-16 19:11:09,379 Trial 196 finished with value: 26.0 and parameters: {'hidden_dim': 94, 'batch_size': 354, 'gamma': 0.1, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 5, 'grad_clip': 0.29999999999999993}. Best is trial 48 with value: 501.0.
+2021-07-16 19:11:21,322 ------------------------------------------------------------------------------
+2021-07-16 19:11:21,322 Final task score = 52.0
+2021-07-16 19:11:21,332 Trial 197 finished with value: 52.0 and parameters: {'hidden_dim': 200, 'batch_size': 329, 'gamma': 0.9899999999999999, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.1, 'target_update_period': 5, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 19:11:29,632 ------------------------------------------------------------------------------
+2021-07-16 19:11:29,632 Final task score = 24.0
+2021-07-16 19:11:29,639 Trial 198 finished with value: 24.0 and parameters: {'hidden_dim': 20, 'batch_size': 328, 'gamma': 0.9899999999999999, 'epsilon_end': 0.0001, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 5, 'grad_clip': 0.05}. Best is trial 48 with value: 501.0.
+2021-07-16 19:12:03,885 ------------------------------------------------------------------------------
+2021-07-16 19:12:03,885 Final task score = 118.0
+2021-07-16 19:12:03,918 Trial 199 finished with value: 118.0 and parameters: {'hidden_dim': 156, 'batch_size': 302, 'gamma': 0.9899999999999999, 'epsilon_end': 0.049999999999999996, 'epsilon_decay': 0.9899999999999999, 'target_update_period': 5, 'grad_clip': 0.29999999999999993}. Best is trial 48 with value: 501.0.
+2021-07-16 19:12:08,068 Study statistics: 
+2021-07-16 19:12:08,128 Number of finished trials: 200
+2021-07-16 19:12:08,128 Number of pruned trials: 0
+2021-07-16 19:12:08,128 Number of complete trials: 200
+2021-07-16 19:12:08,128 Best trial: 
+2021-07-16 19:12:08,129 Score: 501.0
+2021-07-16 19:12:08,129 Params: 
+2021-07-16 19:12:08,129     hidden_dim: 200
+2021-07-16 19:12:08,129     batch_size: 500
+2021-07-16 19:12:08,129     gamma: 0.9899999999999999
+2021-07-16 19:12:08,129     epsilon_end: 0.049999999999999996
+2021-07-16 19:12:08,129     epsilon_decay: 0.9899999999999999
+2021-07-16 19:12:08,129     target_update_period: 5
+2021-07-16 19:12:08,129     grad_clip: 0.29999999999999993
