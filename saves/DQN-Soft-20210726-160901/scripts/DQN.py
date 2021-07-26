@@ -22,8 +22,8 @@ parser = argparse.ArgumentParser(description='PyTorch Stocks Prediction Model')
 parser.add_argument('--gpu', type=str, default='0', help='gpu device')
 parser.add_argument('--save', type=str, default='TEST', help='name of the file')
 parser.add_argument('--max_episodes', type=int, default=200, help="number of episodes")
-parser.add_argument('--no_buffer', action='store_true', help='using replay buffer')
-parser.add_argument('--no_target', action='store_true', help='using the target network')
+parser.add_argument('--no_buffer', action='store_false', help='using replay buffer')
+parser.add_argument('--no_target', action='store_false', help='using the target network')
 args = parser.parse_args()
 
 os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"
@@ -72,7 +72,7 @@ training_params = {
     'epsilon_start': 1.1,               # 1.1
     'epsilon_end': 0.05,                # 0.05,
     'epsilon_decay': 0.95,              # 0.95,
-    'target_update': 'hard',            # use 'soft' or 'hard'
+    'target_update': 'soft',            # use 'soft' or 'hard'
     'tau': 0.01,                        # 0.01,  # relevant for soft update
     'target_update_period': 15,         # 15,    # relevant for hard update
     'grad_clip': 0.1,                   # 0.1
@@ -81,16 +81,16 @@ network_params = box.Box(network_params)
 params = box.Box(training_params)
 
 # Target Network
-if args.no_target:                          # without target network
+if not args.no_target:                # without target network
     params.target_update = 'hard'
-    params.target_update_period = 1         # updating every weights update
+    params.target_update_period = 1        # updating every weights update
 
 # Replay Buffer
-if args.no_buffer:                          # without Replay Buffer
+if args.no_buffer:                    # with Replay Buffer
+    buffer = ReplayBuffer(100000)
+else:                                   # without Replay Buffer
     buffer = ReplayBuffer(1)
     params.batch_size = 1
-else:                                       # with Replay Buffer
-    buffer = ReplayBuffer(100000)
 
 
 logging.info("network_params: {}".format(network_params))
